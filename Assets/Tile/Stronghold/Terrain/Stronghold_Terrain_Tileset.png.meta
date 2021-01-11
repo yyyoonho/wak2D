@@ -1,0 +1,3171 @@
+fileFormatVersion: 2
+guid: c4fa4a19c4dd83b4fa5dcfb50fbafbc6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6105673980475869749
+    second: Stronghold_Terrain_Tileset_0
+  - first:
+      213: -7409256749692588263
+    second: Stronghold_Terrain_Tileset_1
+  - first:
+      213: 892727306817351670
+    second: Stronghold_Terrain_Tileset_2
+  - first:
+      213: 5198414985710244006
+    second: Stronghold_Terrain_Tileset_3
+  - first:
+      213: 202912882492270196
+    second: Stronghold_Terrain_Tileset_4
+  - first:
+      213: 1413748073661592769
+    second: Stronghold_Terrain_Tileset_5
+  - first:
+      213: -6480010359821104916
+    second: Stronghold_Terrain_Tileset_6
+  - first:
+      213: -1263067915677089114
+    second: Stronghold_Terrain_Tileset_7
+  - first:
+      213: -5354532870805895029
+    second: Stronghold_Terrain_Tileset_8
+  - first:
+      213: -7189550530518760852
+    second: Stronghold_Terrain_Tileset_9
+  - first:
+      213: 7710273645436075485
+    second: Stronghold_Terrain_Tileset_10
+  - first:
+      213: -996207748951563444
+    second: Stronghold_Terrain_Tileset_11
+  - first:
+      213: -7380021567348040632
+    second: Stronghold_Terrain_Tileset_12
+  - first:
+      213: 8616995081276029249
+    second: Stronghold_Terrain_Tileset_13
+  - first:
+      213: 6366839081080148484
+    second: Stronghold_Terrain_Tileset_14
+  - first:
+      213: -6996042708715600040
+    second: Stronghold_Terrain_Tileset_15
+  - first:
+      213: -6847951865438332741
+    second: Stronghold_Terrain_Tileset_16
+  - first:
+      213: -6980873863047786323
+    second: Stronghold_Terrain_Tileset_17
+  - first:
+      213: -775958816710996349
+    second: Stronghold_Terrain_Tileset_18
+  - first:
+      213: 6133011976386969136
+    second: Stronghold_Terrain_Tileset_19
+  - first:
+      213: -7297409543929210653
+    second: Stronghold_Terrain_Tileset_20
+  - first:
+      213: -2772159949815254284
+    second: Stronghold_Terrain_Tileset_21
+  - first:
+      213: -5596010378706327506
+    second: Stronghold_Terrain_Tileset_22
+  - first:
+      213: 1560220405930291279
+    second: Stronghold_Terrain_Tileset_23
+  - first:
+      213: 1314490940295602392
+    second: Stronghold_Terrain_Tileset_24
+  - first:
+      213: -6586468655346891755
+    second: Stronghold_Terrain_Tileset_25
+  - first:
+      213: 1987969383128510970
+    second: Stronghold_Terrain_Tileset_26
+  - first:
+      213: 797395993296783735
+    second: Stronghold_Terrain_Tileset_27
+  - first:
+      213: -3632567772804244953
+    second: Stronghold_Terrain_Tileset_28
+  - first:
+      213: 1383920436931687609
+    second: Stronghold_Terrain_Tileset_29
+  - first:
+      213: -439884787444826381
+    second: Stronghold_Terrain_Tileset_30
+  - first:
+      213: -26802359757588058
+    second: Stronghold_Terrain_Tileset_31
+  - first:
+      213: -114176149016012305
+    second: Stronghold_Terrain_Tileset_32
+  - first:
+      213: 1169143830204730239
+    second: Stronghold_Terrain_Tileset_33
+  - first:
+      213: -1439254781011136024
+    second: Stronghold_Terrain_Tileset_34
+  - first:
+      213: -8702423139181935115
+    second: Stronghold_Terrain_Tileset_35
+  - first:
+      213: 6706885180306565780
+    second: Stronghold_Terrain_Tileset_36
+  - first:
+      213: -2771215262490304358
+    second: Stronghold_Terrain_Tileset_37
+  - first:
+      213: 5807417066914534780
+    second: Stronghold_Terrain_Tileset_38
+  - first:
+      213: 1288595839217711825
+    second: Stronghold_Terrain_Tileset_39
+  - first:
+      213: 948115946871249051
+    second: Stronghold_Terrain_Tileset_40
+  - first:
+      213: -6438194246153273775
+    second: Stronghold_Terrain_Tileset_41
+  - first:
+      213: 2106089673531771603
+    second: Stronghold_Terrain_Tileset_42
+  - first:
+      213: 1472061149953751482
+    second: Stronghold_Terrain_Tileset_43
+  - first:
+      213: -2630053139807683188
+    second: Stronghold_Terrain_Tileset_44
+  - first:
+      213: 1375811509673091026
+    second: Stronghold_Terrain_Tileset_45
+  - first:
+      213: 1064824865200054957
+    second: Stronghold_Terrain_Tileset_46
+  - first:
+      213: -6706727917903598922
+    second: Stronghold_Terrain_Tileset_47
+  - first:
+      213: -1409181024894439932
+    second: Stronghold_Terrain_Tileset_48
+  - first:
+      213: 5546636160275681358
+    second: Stronghold_Terrain_Tileset_49
+  - first:
+      213: 6620363506432326464
+    second: Stronghold_Terrain_Tileset_50
+  - first:
+      213: 4111728836620098950
+    second: Stronghold_Terrain_Tileset_51
+  - first:
+      213: -6850265743715825981
+    second: Stronghold_Terrain_Tileset_52
+  - first:
+      213: -7039928924540702452
+    second: Stronghold_Terrain_Tileset_53
+  - first:
+      213: 8273819971587583959
+    second: Stronghold_Terrain_Tileset_54
+  - first:
+      213: -7925439546928965491
+    second: Stronghold_Terrain_Tileset_55
+  - first:
+      213: -8733059770689297734
+    second: Stronghold_Terrain_Tileset_56
+  - first:
+      213: -7335715080402648681
+    second: Stronghold_Terrain_Tileset_57
+  - first:
+      213: 4147972400421434360
+    second: Stronghold_Terrain_Tileset_58
+  - first:
+      213: 3557985189130636115
+    second: Stronghold_Terrain_Tileset_59
+  - first:
+      213: 8115337664887877412
+    second: Stronghold_Terrain_Tileset_60
+  - first:
+      213: -4355974625584931150
+    second: Stronghold_Terrain_Tileset_61
+  - first:
+      213: -8285420593986104706
+    second: Stronghold_Terrain_Tileset_62
+  - first:
+      213: 474106685074785154
+    second: Stronghold_Terrain_Tileset_63
+  - first:
+      213: -5008262620732705372
+    second: Stronghold_Terrain_Tileset_64
+  - first:
+      213: -2781110718392867411
+    second: Stronghold_Terrain_Tileset_65
+  - first:
+      213: -1645086582287505269
+    second: Stronghold_Terrain_Tileset_66
+  - first:
+      213: 6530274634746007140
+    second: Stronghold_Terrain_Tileset_67
+  - first:
+      213: 6381960559369196919
+    second: Stronghold_Terrain_Tileset_68
+  - first:
+      213: 8324930646770495984
+    second: Stronghold_Terrain_Tileset_69
+  - first:
+      213: -143857389016088079
+    second: Stronghold_Terrain_Tileset_70
+  - first:
+      213: 6916295232475695005
+    second: Stronghold_Terrain_Tileset_71
+  - first:
+      213: -8340038506436961496
+    second: Stronghold_Terrain_Tileset_72
+  - first:
+      213: -228934223586096440
+    second: Stronghold_Terrain_Tileset_73
+  - first:
+      213: -6313492269041972578
+    second: Stronghold_Terrain_Tileset_74
+  - first:
+      213: 5424405137340840653
+    second: Stronghold_Terrain_Tileset_75
+  - first:
+      213: 6748198939189613507
+    second: Stronghold_Terrain_Tileset_76
+  - first:
+      213: -7159276070463609577
+    second: Stronghold_Terrain_Tileset_77
+  - first:
+      213: -6159742548851815283
+    second: Stronghold_Terrain_Tileset_78
+  - first:
+      213: -6162679853285529829
+    second: Stronghold_Terrain_Tileset_79
+  - first:
+      213: 3730308758941222067
+    second: Stronghold_Terrain_Tileset_80
+  - first:
+      213: 6162381711074287079
+    second: Stronghold_Terrain_Tileset_81
+  - first:
+      213: -7004684429448304443
+    second: Stronghold_Terrain_Tileset_82
+  - first:
+      213: -1615676266120187569
+    second: Stronghold_Terrain_Tileset_83
+  - first:
+      213: -1112901761923019156
+    second: Stronghold_Terrain_Tileset_84
+  - first:
+      213: 1120437220459366978
+    second: Stronghold_Terrain_Tileset_85
+  - first:
+      213: 9115057472990596685
+    second: Stronghold_Terrain_Tileset_86
+  - first:
+      213: 5817529992212824033
+    second: Stronghold_Terrain_Tileset_87
+  - first:
+      213: 3400428343036947777
+    second: Stronghold_Terrain_Tileset_88
+  - first:
+      213: 4871872026540182009
+    second: Stronghold_Terrain_Tileset_89
+  - first:
+      213: -6726213842580102851
+    second: Stronghold_Terrain_Tileset_90
+  - first:
+      213: -5919153696159591695
+    second: Stronghold_Terrain_Tileset_91
+  - first:
+      213: -6223773555634905792
+    second: Stronghold_Terrain_Tileset_92
+  - first:
+      213: -6745137714050587681
+    second: Stronghold_Terrain_Tileset_93
+  - first:
+      213: -5128775404281451919
+    second: Stronghold_Terrain_Tileset_94
+  - first:
+      213: 6135522341726534708
+    second: Stronghold_Terrain_Tileset_95
+  - first:
+      213: 7289382269999143050
+    second: Stronghold_Terrain_Tileset_96
+  - first:
+      213: -5595527769278143941
+    second: Stronghold_Terrain_Tileset_97
+  - first:
+      213: 20458584630194438
+    second: Stronghold_Terrain_Tileset_98
+  - first:
+      213: -1402919960991245720
+    second: Stronghold_Terrain_Tileset_99
+  - first:
+      213: 4025535592994195947
+    second: Stronghold_Terrain_Tileset_100
+  - first:
+      213: 2405624318673846319
+    second: Stronghold_Terrain_Tileset_101
+  - first:
+      213: -6558188731186812496
+    second: Stronghold_Terrain_Tileset_102
+  - first:
+      213: 8989233996682644902
+    second: Stronghold_Terrain_Tileset_103
+  - first:
+      213: 5348265161515233740
+    second: Stronghold_Terrain_Tileset_104
+  - first:
+      213: -1908967668685903175
+    second: Stronghold_Terrain_Tileset_105
+  - first:
+      213: -481375036360811568
+    second: Stronghold_Terrain_Tileset_106
+  - first:
+      213: 2310729074069828988
+    second: Stronghold_Terrain_Tileset_107
+  - first:
+      213: -9080652172213670818
+    second: Stronghold_Terrain_Tileset_108
+  - first:
+      213: -2483889455073771806
+    second: Stronghold_Terrain_Tileset_109
+  - first:
+      213: -1557536713505452606
+    second: Stronghold_Terrain_Tileset_110
+  - first:
+      213: 3455355322508358091
+    second: Stronghold_Terrain_Tileset_111
+  - first:
+      213: 782602026079099390
+    second: Stronghold_Terrain_Tileset_112
+  - first:
+      213: 8544264153955608109
+    second: Stronghold_Terrain_Tileset_113
+  - first:
+      213: -6602826484692812146
+    second: Stronghold_Terrain_Tileset_114
+  - first:
+      213: 605780645929919766
+    second: Stronghold_Terrain_Tileset_115
+  - first:
+      213: -381198330468041796
+    second: Stronghold_Terrain_Tileset_116
+  - first:
+      213: -5534571029094500277
+    second: Stronghold_Terrain_Tileset_117
+  - first:
+      213: -4699219750049616930
+    second: Stronghold_Terrain_Tileset_118
+  - first:
+      213: -7682125610349668174
+    second: Stronghold_Terrain_Tileset_119
+  - first:
+      213: -6134777835993076348
+    second: Stronghold_Terrain_Tileset_120
+  - first:
+      213: -6384144412668758875
+    second: Stronghold_Terrain_Tileset_121
+  - first:
+      213: 4475195499484524294
+    second: Stronghold_Terrain_Tileset_122
+  - first:
+      213: -3721534785861169348
+    second: Stronghold_Terrain_Tileset_123
+  - first:
+      213: 8375825475427479081
+    second: Stronghold_Terrain_Tileset_124
+  - first:
+      213: -125031539372645993
+    second: Stronghold_Terrain_Tileset_125
+  - first:
+      213: -7462381548109681886
+    second: Stronghold_Terrain_Tileset_126
+  - first:
+      213: -4753600432988538615
+    second: Stronghold_Terrain_Tileset_127
+  - first:
+      213: 902517433690286293
+    second: Stronghold_Terrain_Tileset_128
+  - first:
+      213: 1052442535348505882
+    second: Stronghold_Terrain_Tileset_129
+  - first:
+      213: 6287906683791047887
+    second: Stronghold_Terrain_Tileset_130
+  - first:
+      213: -7413060742569658104
+    second: Stronghold_Terrain_Tileset_131
+  - first:
+      213: -7336482031553115338
+    second: Stronghold_Terrain_Tileset_132
+  - first:
+      213: 6949563522933113824
+    second: Stronghold_Terrain_Tileset_133
+  - first:
+      213: 2901832538504550645
+    second: Stronghold_Terrain_Tileset_134
+  - first:
+      213: -8971671678583698790
+    second: Stronghold_Terrain_Tileset_135
+  - first:
+      213: -6842594123625403271
+    second: Stronghold_Terrain_Tileset_136
+  - first:
+      213: 7342982559029951121
+    second: Stronghold_Terrain_Tileset_137
+  - first:
+      213: -437583945138223050
+    second: Stronghold_Terrain_Tileset_138
+  - first:
+      213: 8981020492931344432
+    second: Stronghold_Terrain_Tileset_139
+  - first:
+      213: 6645218098763886244
+    second: Stronghold_Terrain_Tileset_140
+  - first:
+      213: -9156646423948582058
+    second: Stronghold_Terrain_Tileset_141
+  - first:
+      213: 8760191544728135062
+    second: Stronghold_Terrain_Tileset_142
+  - first:
+      213: -363923114884582972
+    second: Stronghold_Terrain_Tileset_143
+  - first:
+      213: -5285987859294112737
+    second: Stronghold_Terrain_Tileset_144
+  - first:
+      213: 6223412633535906968
+    second: Stronghold_Terrain_Tileset_145
+  - first:
+      213: -2386029104573662027
+    second: Stronghold_Terrain_Tileset_146
+  - first:
+      213: 8443929517569561656
+    second: Stronghold_Terrain_Tileset_147
+  - first:
+      213: 6340841466295829745
+    second: Stronghold_Terrain_Tileset_148
+  - first:
+      213: 6291788720576870565
+    second: Stronghold_Terrain_Tileset_149
+  - first:
+      213: 372486427078370407
+    second: Stronghold_Terrain_Tileset_150
+  - first:
+      213: -5408086707305117555
+    second: Stronghold_Terrain_Tileset_151
+  - first:
+      213: -821413316063784454
+    second: Stronghold_Terrain_Tileset_152
+  - first:
+      213: -4206218587698798451
+    second: Stronghold_Terrain_Tileset_153
+  - first:
+      213: 2603947898870589651
+    second: Stronghold_Terrain_Tileset_154
+  - first:
+      213: 5652416881744110655
+    second: Stronghold_Terrain_Tileset_155
+  - first:
+      213: 6583760728601640924
+    second: Stronghold_Terrain_Tileset_156
+  - first:
+      213: 6604000124847771926
+    second: Stronghold_Terrain_Tileset_157
+  - first:
+      213: -4342131603044735436
+    second: Stronghold_Terrain_Tileset_158
+  - first:
+      213: 3822823999745976512
+    second: Stronghold_Terrain_Tileset_159
+  - first:
+      213: 1359734225199053710
+    second: Stronghold_Terrain_Tileset_160
+  - first:
+      213: -7929421152412688117
+    second: Stronghold_Terrain_Tileset_161
+  - first:
+      213: 7368936274570681470
+    second: Stronghold_Terrain_Tileset_162
+  - first:
+      213: -8850208636531653786
+    second: Stronghold_Terrain_Tileset_163
+  - first:
+      213: -8707565047579261578
+    second: Stronghold_Terrain_Tileset_164
+  - first:
+      213: 5625931275509291061
+    second: Stronghold_Terrain_Tileset_165
+  - first:
+      213: 6303336384262404975
+    second: Stronghold_Terrain_Tileset_166
+  - first:
+      213: 6112836370443234255
+    second: Stronghold_Terrain_Tileset_167
+  - first:
+      213: 6869992013559247905
+    second: Stronghold_Terrain_Tileset_168
+  - first:
+      213: 3850123481451065217
+    second: Stronghold_Terrain_Tileset_169
+  - first:
+      213: 6195224680770854592
+    second: Stronghold_Terrain_Tileset_170
+  - first:
+      213: 7985301621320878294
+    second: Stronghold_Terrain_Tileset_171
+  - first:
+      213: -2072914029096062145
+    second: Stronghold_Terrain_Tileset_172
+  - first:
+      213: -4826299602845799209
+    second: Stronghold_Terrain_Tileset_173
+  - first:
+      213: 4465724802539612461
+    second: Stronghold_Terrain_Tileset_174
+  - first:
+      213: -8732235850906518674
+    second: Stronghold_Terrain_Tileset_175
+  - first:
+      213: -7297872064080453694
+    second: Stronghold_Terrain_Tileset_176
+  - first:
+      213: -858102159124628104
+    second: Stronghold_Terrain_Tileset_177
+  - first:
+      213: -1230420230085549922
+    second: Stronghold_Terrain_Tileset_178
+  - first:
+      213: -6932345853111961937
+    second: Stronghold_Terrain_Tileset_179
+  - first:
+      213: 1186051743410497189
+    second: Stronghold_Terrain_Tileset_180
+  - first:
+      213: 6279967343460664654
+    second: Stronghold_Terrain_Tileset_181
+  - first:
+      213: 5329341155252902051
+    second: Stronghold_Terrain_Tileset_182
+  - first:
+      213: -9167579113241431053
+    second: Stronghold_Terrain_Tileset_183
+  - first:
+      213: 5452783822741689034
+    second: Stronghold_Terrain_Tileset_184
+  - first:
+      213: -7110697764049449779
+    second: Stronghold_Terrain_Tileset_185
+  - first:
+      213: 7944108732079709293
+    second: Stronghold_Terrain_Tileset_186
+  - first:
+      213: 7535131775773577150
+    second: Stronghold_Terrain_Tileset_187
+  - first:
+      213: 1282505556381802043
+    second: Stronghold_Terrain_Tileset_188
+  - first:
+      213: 1163368520562253250
+    second: Stronghold_Terrain_Tileset_189
+  - first:
+      213: -4706930716049858959
+    second: Stronghold_Terrain_Tileset_190
+  - first:
+      213: 317181407903327125
+    second: Stronghold_Terrain_Tileset_191
+  - first:
+      213: -1745787919485220964
+    second: Stronghold_Terrain_Tileset_192
+  - first:
+      213: 1668162206921849265
+    second: Stronghold_Terrain_Tileset_193
+  - first:
+      213: -5213377777951678874
+    second: Stronghold_Terrain_Tileset_194
+  - first:
+      213: -5919053757951649628
+    second: Stronghold_Terrain_Tileset_195
+  - first:
+      213: 1614883923594105038
+    second: Stronghold_Terrain_Tileset_196
+  - first:
+      213: -6131571220245097986
+    second: Stronghold_Terrain_Tileset_197
+  - first:
+      213: -4390502701637019577
+    second: Stronghold_Terrain_Tileset_198
+  - first:
+      213: 4410994380369044263
+    second: Stronghold_Terrain_Tileset_199
+  - first:
+      213: -8056626318729975465
+    second: Stronghold_Terrain_Tileset_200
+  - first:
+      213: -6052221282527506733
+    second: Stronghold_Terrain_Tileset_201
+  - first:
+      213: 2572654694030322911
+    second: Stronghold_Terrain_Tileset_202
+  - first:
+      213: 571803738874933809
+    second: Stronghold_Terrain_Tileset_203
+  - first:
+      213: -3790334567314928302
+    second: Stronghold_Terrain_Tileset_204
+  - first:
+      213: 1773883516578645789
+    second: Stronghold_Terrain_Tileset_205
+  - first:
+      213: 8562639667420522687
+    second: Stronghold_Terrain_Tileset_206
+  - first:
+      213: -8012594452071651580
+    second: Stronghold_Terrain_Tileset_207
+  - first:
+      213: -3386506649682638839
+    second: Stronghold_Terrain_Tileset_208
+  - first:
+      213: 4978582583303409743
+    second: Stronghold_Terrain_Tileset_209
+  - first:
+      213: -474053617628984059
+    second: Stronghold_Terrain_Tileset_210
+  - first:
+      213: -4930071052374020678
+    second: Stronghold_Terrain_Tileset_211
+  - first:
+      213: 2683691394767647091
+    second: Stronghold_Terrain_Tileset_212
+  - first:
+      213: 507806021858366873
+    second: Stronghold_Terrain_Tileset_213
+  - first:
+      213: -5498499934745063998
+    second: Stronghold_Terrain_Tileset_214
+  - first:
+      213: -1987147829540124117
+    second: Stronghold_Terrain_Tileset_215
+  - first:
+      213: -7066138239566472454
+    second: Stronghold_Terrain_Tileset_216
+  - first:
+      213: -1719467488674102127
+    second: Stronghold_Terrain_Tileset_217
+  - first:
+      213: -7365652342157562090
+    second: Stronghold_Terrain_Tileset_218
+  - first:
+      213: -3999278127639304653
+    second: Stronghold_Terrain_Tileset_219
+  - first:
+      213: 2733154746435114241
+    second: Stronghold_Terrain_Tileset_220
+  - first:
+      213: -6388155924132622904
+    second: Stronghold_Terrain_Tileset_221
+  - first:
+      213: 2487954408260347379
+    second: Stronghold_Terrain_Tileset_222
+  - first:
+      213: 2963048292938532237
+    second: Stronghold_Terrain_Tileset_223
+  - first:
+      213: -2099136764631826214
+    second: Stronghold_Terrain_Tileset_224
+  - first:
+      213: 3925414110471181336
+    second: Stronghold_Terrain_Tileset_225
+  - first:
+      213: 2411391515715429711
+    second: Stronghold_Terrain_Tileset_226
+  - first:
+      213: -8017714676350877201
+    second: Stronghold_Terrain_Tileset_227
+  - first:
+      213: -56930770080258733
+    second: Stronghold_Terrain_Tileset_228
+  - first:
+      213: 2348101396643976807
+    second: Stronghold_Terrain_Tileset_229
+  - first:
+      213: 6213103458042474857
+    second: Stronghold_Terrain_Tileset_230
+  - first:
+      213: 7819678865734950676
+    second: Stronghold_Terrain_Tileset_231
+  - first:
+      213: 1942212261767128309
+    second: Stronghold_Terrain_Tileset_232
+  - first:
+      213: -1686140825328991668
+    second: Stronghold_Terrain_Tileset_233
+  - first:
+      213: 6644592824003081832
+    second: Stronghold_Terrain_Tileset_234
+  - first:
+      213: -6331004835790185395
+    second: Stronghold_Terrain_Tileset_235
+  - first:
+      213: -1355286600048942227
+    second: Stronghold_Terrain_Tileset_236
+  - first:
+      213: 3478415374262357186
+    second: Stronghold_Terrain_Tileset_237
+  - first:
+      213: -7359505858912400123
+    second: Stronghold_Terrain_Tileset_238
+  - first:
+      213: 1092326497253737709
+    second: Stronghold_Terrain_Tileset_239
+  - first:
+      213: -8552998342654675463
+    second: Stronghold_Terrain_Tileset_240
+  - first:
+      213: -4491026707469865746
+    second: Stronghold_Terrain_Tileset_241
+  - first:
+      213: 5088926684158628134
+    second: Stronghold_Terrain_Tileset_242
+  - first:
+      213: 4574948510930039284
+    second: Stronghold_Terrain_Tileset_243
+  - first:
+      213: -4362202707519220430
+    second: Stronghold_Terrain_Tileset_244
+  - first:
+      213: 8861547503500762187
+    second: Stronghold_Terrain_Tileset_245
+  - first:
+      213: 81642098702958360
+    second: Stronghold_Terrain_Tileset_246
+  - first:
+      213: 3805699739873952641
+    second: Stronghold_Terrain_Tileset_247
+  - first:
+      213: -1464132996369826957
+    second: Stronghold_Terrain_Tileset_248
+  - first:
+      213: -3280955521723787704
+    second: Stronghold_Terrain_Tileset_249
+  - first:
+      213: 5499758075186164021
+    second: Stronghold_Terrain_Tileset_250
+  - first:
+      213: -1610864799748408858
+    second: Stronghold_Terrain_Tileset_251
+  - first:
+      213: -5559882462722639326
+    second: Stronghold_Terrain_Tileset_252
+  - first:
+      213: -2938602957168679399
+    second: Stronghold_Terrain_Tileset_253
+  - first:
+      213: 7190487386928235407
+    second: Stronghold_Terrain_Tileset_254
+  - first:
+      213: 1193019436123227346
+    second: Stronghold_Terrain_Tileset_255
+  - first:
+      213: 3855540482564440603
+    second: Stronghold_Terrain_Tileset_256
+  - first:
+      213: 999194243645567432
+    second: Stronghold_Terrain_Tileset_257
+  - first:
+      213: -2697914122640255661
+    second: Stronghold_Terrain_Tileset_258
+  - first:
+      213: 3640195361492819806
+    second: Stronghold_Terrain_Tileset_259
+  - first:
+      213: 1582501473280660183
+    second: Stronghold_Terrain_Tileset_260
+  - first:
+      213: -7400805248061743587
+    second: Stronghold_Terrain_Tileset_261
+  - first:
+      213: -1707366489833397450
+    second: Stronghold_Terrain_Tileset_262
+  - first:
+      213: -1145695903693927634
+    second: Stronghold_Terrain_Tileset_263
+  - first:
+      213: 4994818966145109624
+    second: Stronghold_Terrain_Tileset_264
+  - first:
+      213: -2172793374546780670
+    second: Stronghold_Terrain_Tileset_265
+  - first:
+      213: 4675665053908114134
+    second: Stronghold_Terrain_Tileset_266
+  - first:
+      213: -3074653849645166768
+    second: Stronghold_Terrain_Tileset_267
+  - first:
+      213: 7042768624610866584
+    second: Stronghold_Terrain_Tileset_268
+  - first:
+      213: 6281631731428463750
+    second: Stronghold_Terrain_Tileset_269
+  - first:
+      213: 4411628574192307119
+    second: Stronghold_Terrain_Tileset_270
+  - first:
+      213: 3390745075896094042
+    second: Stronghold_Terrain_Tileset_271
+  - first:
+      213: 7662011528784562526
+    second: Stronghold_Terrain_Tileset_272
+  - first:
+      213: 7186739167825972525
+    second: Stronghold_Terrain_Tileset_273
+  - first:
+      213: 1892095904365889804
+    second: Stronghold_Terrain_Tileset_274
+  - first:
+      213: 2195312494493555973
+    second: Stronghold_Terrain_Tileset_275
+  - first:
+      213: -3158140947400714422
+    second: Stronghold_Terrain_Tileset_276
+  - first:
+      213: -1499968406434830417
+    second: Stronghold_Terrain_Tileset_277
+  - first:
+      213: 2206341808581466531
+    second: Stronghold_Terrain_Tileset_278
+  - first:
+      213: -6162008274919081148
+    second: Stronghold_Terrain_Tileset_279
+  - first:
+      213: -8925060711132143963
+    second: Stronghold_Terrain_Tileset_280
+  - first:
+      213: 3727088328451297919
+    second: Stronghold_Terrain_Tileset_281
+  - first:
+      213: 2945850098874879585
+    second: Stronghold_Terrain_Tileset_282
+  - first:
+      213: 6921859500650247108
+    second: Stronghold_Terrain_Tileset_283
+  - first:
+      213: 3431688615816244496
+    second: Stronghold_Terrain_Tileset_284
+  - first:
+      213: -3343451032595666001
+    second: Stronghold_Terrain_Tileset_285
+  - first:
+      213: -5654488809370695435
+    second: Stronghold_Terrain_Tileset_286
+  - first:
+      213: -2052273478518582312
+    second: Stronghold_Terrain_Tileset_287
+  - first:
+      213: -52723377643025702
+    second: Stronghold_Terrain_Tileset_288
+  - first:
+      213: 8939312972697561796
+    second: Stronghold_Terrain_Tileset_289
+  - first:
+      213: 2397533423873893301
+    second: Stronghold_Terrain_Tileset_290
+  - first:
+      213: -4067677467267081775
+    second: Stronghold_Terrain_Tileset_291
+  - first:
+      213: -1793461968138104369
+    second: Stronghold_Terrain_Tileset_292
+  - first:
+      213: 3018428841717320795
+    second: Stronghold_Terrain_Tileset_293
+  - first:
+      213: 1225026000488028138
+    second: Stronghold_Terrain_Tileset_294
+  - first:
+      213: 731143898163222608
+    second: Stronghold_Terrain_Tileset_295
+  - first:
+      213: 1845295568353123698
+    second: Stronghold_Terrain_Tileset_296
+  - first:
+      213: -7106160527320255742
+    second: Stronghold_Terrain_Tileset_297
+  - first:
+      213: -1927074778952794423
+    second: Stronghold_Terrain_Tileset_298
+  - first:
+      213: -64064106230566446
+    second: Stronghold_Terrain_Tileset_299
+  - first:
+      213: -2820108622428018958
+    second: Stronghold_Terrain_Tileset_300
+  - first:
+      213: -2823104728738046283
+    second: Stronghold_Terrain_Tileset_301
+  - first:
+      213: 381307984587205198
+    second: Stronghold_Terrain_Tileset_302
+  - first:
+      213: -2278999301081432300
+    second: Stronghold_Terrain_Tileset_303
+  - first:
+      213: -6095534915429848751
+    second: Stronghold_Terrain_Tileset_304
+  - first:
+      213: 2915446550362542125
+    second: Stronghold_Terrain_Tileset_305
+  - first:
+      213: -4172934995865551300
+    second: Stronghold_Terrain_Tileset_306
+  - first:
+      213: -7539367231760710740
+    second: Stronghold_Terrain_Tileset_307
+  - first:
+      213: 145149006830558985
+    second: Stronghold_Terrain_Tileset_308
+  - first:
+      213: 2988644671806025526
+    second: Stronghold_Terrain_Tileset_309
+  - first:
+      213: -8755758736222867515
+    second: Stronghold_Terrain_Tileset_310
+  - first:
+      213: 1606000278189235717
+    second: Stronghold_Terrain_Tileset_311
+  - first:
+      213: -1838310086422148255
+    second: Stronghold_Terrain_Tileset_312
+  - first:
+      213: -4456662703582841625
+    second: Stronghold_Terrain_Tileset_313
+  - first:
+      213: 6682374229481383461
+    second: Stronghold_Terrain_Tileset_314
+  - first:
+      213: 8689697329916191419
+    second: Stronghold_Terrain_Tileset_315
+  - first:
+      213: 4819839742045078670
+    second: Stronghold_Terrain_Tileset_316
+  - first:
+      213: -8412163532926950213
+    second: Stronghold_Terrain_Tileset_317
+  - first:
+      213: -460774391448034530
+    second: Stronghold_Terrain_Tileset_318
+  - first:
+      213: 3197864487977659737
+    second: Stronghold_Terrain_Tileset_319
+  - first:
+      213: -1755919261927416022
+    second: Stronghold_Terrain_Tileset_320
+  - first:
+      213: -9029897811571764623
+    second: Stronghold_Terrain_Tileset_321
+  - first:
+      213: 8773657243674222007
+    second: Stronghold_Terrain_Tileset_322
+  - first:
+      213: 5273475576429322932
+    second: Stronghold_Terrain_Tileset_323
+  - first:
+      213: -3601536647909509977
+    second: Stronghold_Terrain_Tileset_324
+  - first:
+      213: 756574148686966048
+    second: Stronghold_Terrain_Tileset_325
+  - first:
+      213: 974483503710889138
+    second: Stronghold_Terrain_Tileset_326
+  - first:
+      213: 2735612789294195587
+    second: Stronghold_Terrain_Tileset_327
+  - first:
+      213: -73678237447528271
+    second: Stronghold_Terrain_Tileset_328
+  - first:
+      213: 5553050986600104549
+    second: Stronghold_Terrain_Tileset_329
+  - first:
+      213: 2290833362601527769
+    second: Stronghold_Terrain_Tileset_330
+  - first:
+      213: 2149139280299457376
+    second: Stronghold_Terrain_Tileset_331
+  - first:
+      213: 5082059179412780609
+    second: Stronghold_Terrain_Tileset_332
+  - first:
+      213: 2312058961107858937
+    second: Stronghold_Terrain_Tileset_333
+  - first:
+      213: 5184481640878808065
+    second: Stronghold_Terrain_Tileset_334
+  - first:
+      213: 5969774274715306796
+    second: Stronghold_Terrain_Tileset_335
+  - first:
+      213: -5007149433452866093
+    second: Stronghold_Terrain_Tileset_336
+  - first:
+      213: 61583354831354832
+    second: Stronghold_Terrain_Tileset_337
+  - first:
+      213: -7343449192591405618
+    second: Stronghold_Terrain_Tileset_338
+  - first:
+      213: -9012702360583346503
+    second: Stronghold_Terrain_Tileset_339
+  - first:
+      213: -4805363313072505538
+    second: Stronghold_Terrain_Tileset_340
+  - first:
+      213: -3520000700495242197
+    second: Stronghold_Terrain_Tileset_341
+  - first:
+      213: 6872136620690343036
+    second: Stronghold_Terrain_Tileset_342
+  - first:
+      213: -1824594914097116033
+    second: Stronghold_Terrain_Tileset_343
+  - first:
+      213: -7904980718902482382
+    second: Stronghold_Terrain_Tileset_344
+  - first:
+      213: 84783961682471287
+    second: Stronghold_Terrain_Tileset_345
+  - first:
+      213: -1934669307772815642
+    second: Stronghold_Terrain_Tileset_346
+  - first:
+      213: -6006116714465912886
+    second: Stronghold_Terrain_Tileset_347
+  - first:
+      213: -4184595513934929482
+    second: Stronghold_Terrain_Tileset_348
+  - first:
+      213: 7322072350093699985
+    second: Stronghold_Terrain_Tileset_349
+  - first:
+      213: -6922235766778444341
+    second: Stronghold_Terrain_Tileset_350
+  - first:
+      213: -4700569598745690472
+    second: Stronghold_Terrain_Tileset_351
+  - first:
+      213: -8279407119932714549
+    second: Stronghold_Terrain_Tileset_352
+  - first:
+      213: 6241888241894453714
+    second: Stronghold_Terrain_Tileset_353
+  - first:
+      213: 4167048372413563477
+    second: Stronghold_Terrain_Tileset_354
+  - first:
+      213: -2445092607993134555
+    second: Stronghold_Terrain_Tileset_355
+  - first:
+      213: -7389245730208639380
+    second: Stronghold_Terrain_Tileset_356
+  - first:
+      213: -6988333147575172432
+    second: Stronghold_Terrain_Tileset_357
+  - first:
+      213: 8115895098748614396
+    second: Stronghold_Terrain_Tileset_358
+  - first:
+      213: -3734945826528992248
+    second: Stronghold_Terrain_Tileset_359
+  - first:
+      213: -5250108660339361831
+    second: Stronghold_Terrain_Tileset_360
+  - first:
+      213: 3143478216615979
+    second: Stronghold_Terrain_Tileset_361
+  - first:
+      213: -2220202246663875632
+    second: Stronghold_Terrain_Tileset_362
+  - first:
+      213: 5938869437238113603
+    second: Stronghold_Terrain_Tileset_363
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5f36f2dd9444ba0800000000000000
+      internalID: -6105673980475869749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f68e8fd380d2990800000000000000
+      internalID: -7409256749692588263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffa32471ca936c00800000000000000
+      internalID: 892727306817351670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0935a13ea742840800000000000000
+      internalID: 5198414985710244006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4766d490134e0d200800000000000000
+      internalID: 202912882492270196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4fd74f164ae9310800000000000000
+      internalID: 1413748073661592769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8030a09e06216a0800000000000000
+      internalID: -6480010359821104916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -5, y: -5}
+        - {x: 0, y: 0}
+        - {x: 8, y: 8}
+        - {x: 8, y: -8}
+        - {x: -8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2cfd63c6ea87ee0800000000000000
+      internalID: -1263067915677089114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 8}
+        - {x: -4, y: 4}
+        - {x: 8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88467939b0e0b5b0800000000000000
+      internalID: -5354532870805895029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6245b562e5993c90800000000000000
+      internalID: -7189550530518760852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddf54d9705600b60800000000000000
+      internalID: 7710273645436075485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4320499452cc22f0800000000000000
+      internalID: -996207748951563444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c9f7b4c75e49990800000000000000
+      internalID: -7380021567348040632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149feb22f57b59770800000000000000
+      internalID: 8616995081276029249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4025bd9496e8b5850800000000000000
+      internalID: 6366839081080148484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8578b89193019ee90800000000000000
+      internalID: -6996042708715600040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb813957f0037f0a0800000000000000
+      internalID: -6847951865438332741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da05a333534fe1f90800000000000000
+      internalID: -6980873863047786323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ecb91419d3b35f0800000000000000
+      internalID: -775958816710996349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ef2cff5e5dc1550800000000000000
+      internalID: 6133011976386969136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8dd81eea46aba90800000000000000
+      internalID: -7297409543929210653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f272b2963f4789d0800000000000000
+      internalID: -2772159949815254284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e286fc1a53af652b0800000000000000
+      internalID: -5596010378706327506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: -8, y: 7}
+        - {x: -4, y: 3}
+        - {x: 7, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f407aca513407a510800000000000000
+      internalID: 1560220405930291279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -8}
+        - {x: 2, y: 1}
+        - {x: 8, y: 7}
+        - {x: 8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0e9c4bb820e3210800000000000000
+      internalID: 1314490940295602392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514cdc197a92894a0800000000000000
+      internalID: -6586468655346891755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af13ab90f9fa69b10800000000000000
+      internalID: 1987969383128510970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77946cd5e6be01b00800000000000000
+      internalID: 797395993296783735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a98775bd6869dc0800000000000000
+      internalID: -3632567772804244953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b477b81e4ca43310800000000000000
+      internalID: 1383920436931687609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3feb04ecd1735e9f0800000000000000
+      internalID: -439884787444826381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9b1835567c0aff0800000000000000
+      internalID: -26802359757588058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9141cb56d5a6ef0800000000000000
+      internalID: -114176149016012305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b41b28e12a93010800000000000000
+      internalID: 1169143830204730239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e17c84f66db60ce0800000000000000
+      internalID: -1439254781011136024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_35
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5cbe72348ca3780800000000000000
+      internalID: -8702423139181935115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a21817984a31d50800000000000000
+      internalID: 6706885180306565780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_37
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90ef1bb66aaa89d0800000000000000
+      internalID: -2771215262490304358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_38
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c755bf7ad07189050800000000000000
+      internalID: 5807417066914534780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_39
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da3e97a61302e110800000000000000
+      internalID: 1288595839217711825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98d42b2e62682d00800000000000000
+      internalID: 948115946871249051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_41
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ef113b170f6a6a0800000000000000
+      internalID: -6438194246153273775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dacaf746655a3d10800000000000000
+      internalID: 2106089673531771603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_43
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab975aa01dfcd6410800000000000000
+      internalID: 1472061149953751482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_44
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8dbc5d9a9c208bd0800000000000000
+      internalID: -2630053139807683188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_45
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df55f7574dd71310800000000000000
+      internalID: 1375811509673091026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2a04eb29407ce00800000000000000
+      internalID: 1064824865200054957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_47
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba29201e7aece2a0800000000000000
+      internalID: -6706727917903598922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e22f2f255917ce0800000000000000
+      internalID: -1409181024894439932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_49
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40919f433c99fc40800000000000000
+      internalID: 5546636160275681358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bbbdc688140eb50800000000000000
+      internalID: 6620363506432326464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_51
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d987f879bcf0930800000000000000
+      internalID: 4111728836620098950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_52
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c68ac0b997fee0a0800000000000000
+      internalID: -6850265743715825981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_53
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01f0c831f52d4e90800000000000000
+      internalID: -7039928924540702452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfa2067d6382d270800000000000000
+      internalID: 8273819971587583959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88577c09be230290800000000000000
+      internalID: -7925439546928965491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_56
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab26fc58860fdc680800000000000000
+      internalID: -8733059770689297734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791cf1b200e423a90800000000000000
+      internalID: -7335715080402648681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_58
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f37e39dbee809930800000000000000
+      internalID: 4147972400421434360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_59
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b8b32bda0806130800000000000000
+      internalID: 3557985189130636115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_60
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f6dfbfb987f9070800000000000000
+      internalID: 8115337664887877412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_61
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be156f28287c83c0800000000000000
+      internalID: -4355974625584931150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_62
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7290c82ed5440d80800000000000000
+      internalID: -8285420593986104706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_63
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2834585a48d549600800000000000000
+      internalID: 474106685074785154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_64
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a53c5d6ea31f7ab0800000000000000
+      internalID: -5008262620732705372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5692d59828769d0800000000000000
+      internalID: -2781110718392867411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_66
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88edfd287a7b29e0800000000000000
+      internalID: -1645086582287505269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e87c17e2230aa50800000000000000
+      internalID: 6530274634746007140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77511cfc057419850800000000000000
+      internalID: 6381960559369196919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_69
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1b48cd058188370800000000000000
+      internalID: 8324930646770495984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_70
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f18165877ae00ef0800000000000000
+      internalID: -143857389016088079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_71
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97017daedd9bff50800000000000000
+      internalID: 6916295232475695005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_72
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bdeb27a2b324c80800000000000000
+      internalID: -8340038506436961496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_73
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca883e5989a2dcf0800000000000000
+      internalID: -228934223586096440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_74
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a049b4b38f168a0800000000000000
+      internalID: -6313492269041972578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_75
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca31019bbb574b40800000000000000
+      internalID: 5424405137340840653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c390148e2b66ad50800000000000000
+      internalID: 6748198939189613507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_77
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715ef0b685425ac90800000000000000
+      internalID: -7159276070463609577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_78
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c04db99c2348aa0800000000000000
+      internalID: -6159742548851815283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_79
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17a5702353c97aa0800000000000000
+      internalID: -6162679853285529829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4483f5d08b4c330800000000000000
+      internalID: 3730308758941222067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed52fa348d258550800000000000000
+      internalID: 6162381711074287079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c82603bf9c5ace90800000000000000
+      internalID: -7004684429448304443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4170e50ff6f399e0800000000000000
+      internalID: -1615676266120187569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e0ca27ebd2e80f0800000000000000
+      internalID: -1112901761923019156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a4b9637b79c8f00800000000000000
+      internalID: 1120437220459366978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ecfd06a703f7e70800000000000000
+      internalID: 9115057472990596685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_87
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efb60094b40cb050800000000000000
+      internalID: 5817529992212824033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d23eecf8fb03f20800000000000000
+      internalID: 3400428343036947777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9071dbbcd5c9340800000000000000
+      internalID: 4871872026540182009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_90
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31a2bda520b7a2a0800000000000000
+      internalID: -6726213842580102851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_Terrain_Tileset_91
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f297790311fadda0800000000000000
+      internalID: -5919153696159591695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
