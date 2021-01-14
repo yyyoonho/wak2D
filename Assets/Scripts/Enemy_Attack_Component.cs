@@ -25,7 +25,7 @@ public class Enemy_Attack_Component : MonoBehaviour
 
     public void RefreshAttackCycle()
     {
-        attackTimer = TimeBetAttack;
+        attackTimer = 0f;
         isAttacking = false;
     }
 
@@ -50,7 +50,7 @@ public class Enemy_Attack_Component : MonoBehaviour
 
     private void RangeAttack()
     {
-        Projectile pj = Instantiate(projectile, transform.position + Vector3.up, Quaternion.identity) as Projectile;
+        Projectile pj = Instantiate(projectile, transform.position, Quaternion.identity) as Projectile;
         pj.Init(_player, attackDamage);
     }
 
