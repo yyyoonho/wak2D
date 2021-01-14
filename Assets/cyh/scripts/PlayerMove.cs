@@ -9,6 +9,7 @@ public class PlayerMove : MonoBehaviour
 
     Rigidbody2D rigid;
     GameObject groundCheck;
+    Animator playerAnim;
 
     Vector3 movement;
     bool isJumping = false;
@@ -16,6 +17,7 @@ public class PlayerMove : MonoBehaviour
     private void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
+        playerAnim = GetComponent<Animator>();
     }
     private void Update()
     {
@@ -23,6 +25,7 @@ public class PlayerMove : MonoBehaviour
         {
             isJumping = true;
         }
+
     }
     private void FixedUpdate()
     {
@@ -33,14 +36,16 @@ public class PlayerMove : MonoBehaviour
     private void Move()
     {
         Vector3 moveVelocity = Vector3.zero;
-
-        if(Input.GetAxis("Horizontal")<0)
+        float xMove = Input.GetAxis("Horizontal");
+        Debug.Log(xMove);
+        playerAnim.SetFloat("Horizontal", xMove);
+        if (xMove<0)
         {
             moveVelocity = Vector3.left;
             transform.localScale = new Vector3(1, 1, 1);
         }
-        else if (Input.GetAxis("Horizontal") > 0)
-        {
+        else if (xMove > 0)
+        { 
             moveVelocity = Vector3.right;
             transform.localScale = new Vector3(-1, 1, 1);
         }
@@ -53,6 +58,8 @@ public class PlayerMove : MonoBehaviour
             return;
 
         rigid.velocity = Vector2.zero;
+
+        playerAnim.SetTrigger("Jump");
 
         Vector2 jumpVelocity = new Vector2(0, jumpPower);
         rigid.AddForce(jumpVelocity, ForceMode2D.Impulse);
