@@ -7,7 +7,6 @@ public class Projectile : MonoBehaviour
     public float MAX_Y;
     public float bulletSpeed;
     public ProjectileKind rangedAttackKind;
-    public GameObject spriteComp;
     public enum ProjectileKind
     {
         Parabola,
@@ -34,7 +33,11 @@ public class Projectile : MonoBehaviour
         MAX_Y = transform.position.y + MAX_Y;
 
         if (rangedAttackKind == ProjectileKind.Parabola) ParabolaSetting();
-        else rb2d.isKinematic = true;
+        else
+        {
+            LookAtDir();
+            rb2d.isKinematic = true;
+        }
     }
 
     private void FixedUpdate()
@@ -45,10 +48,12 @@ public class Projectile : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void LookAtDir()
     {
-        spriteComp.transform.Rotate(new Vector3(0f, 0f, 1f));
+        Vector2 direction = target.transform.position - transform.position;
+
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        this.transform.rotation = Quaternion.AngleAxis(angle - 180, Vector3.forward);
     }
 
     private void ParabolaSetting()

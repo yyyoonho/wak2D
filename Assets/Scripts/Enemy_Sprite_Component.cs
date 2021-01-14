@@ -7,6 +7,7 @@ public class Enemy_Sprite_Component : MonoBehaviour
     public Transform lookingPoint;
 
     private SpriteRenderer sprite;
+    private Enemy_Animator_Component enemy_Animator_Component;
     private bool lookingRight;
     private float blinkTimer = 0f;
 
@@ -38,6 +39,7 @@ public class Enemy_Sprite_Component : MonoBehaviour
     {
         blinkTimer = 0f;
         LookAtTarget(targetTransform);
+        enemy_Animator_Component.Set_Animator_Damaged(true);
         StartCoroutine(SpriteBlink(knockbackTime));
     }
 
@@ -52,6 +54,7 @@ public class Enemy_Sprite_Component : MonoBehaviour
             blinkTimer += 0.1f;
             sprite.color = new Color(1, 1, 1, 1);
         }
+        enemy_Animator_Component.Set_Animator_Damaged(false);
     }
 
     void Start()
@@ -60,5 +63,6 @@ public class Enemy_Sprite_Component : MonoBehaviour
         else lookingRight = false;
 
         sprite = GetComponent<SpriteRenderer>();
+        enemy_Animator_Component = GetComponent<Enemy_Animator_Component>();
     }
 }

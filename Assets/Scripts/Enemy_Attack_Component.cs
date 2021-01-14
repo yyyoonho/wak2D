@@ -7,12 +7,14 @@ public class Enemy_Attack_Component : MonoBehaviour
     public bool isRanged;
     public float attackDamage;
     public float TimeBetAttack;
+    public float SpendingTimeToAttack;
     public Projectile projectile;
     public Transform attackPoint;
     public Vector2 hitBox;
 
     private GameObject _player;
     private Enemy_Sprite_Component enemy_Sprite_Component;
+    private Enemy_Animator_Component enemy_Animator_Component;
     private float attackTimer;
     private bool isAttacking = false;
 
@@ -20,6 +22,7 @@ public class Enemy_Attack_Component : MonoBehaviour
     {
         _player = GameObject.FindGameObjectWithTag("Player");
         enemy_Sprite_Component = GetComponent<Enemy_Sprite_Component>();
+        enemy_Animator_Component = GetComponent<Enemy_Animator_Component>();
         attackTimer = TimeBetAttack;
     }
 
@@ -38,7 +41,7 @@ public class Enemy_Attack_Component : MonoBehaviour
             if (isRanged)
             {
                 //원거리 공격인 경우
-                RangeAttack();
+                enemy_Animator_Component.Trigger_Animator_Attack();
             }
             else
             {
@@ -58,21 +61,25 @@ public class Enemy_Attack_Component : MonoBehaviour
     {
         isAttacking = true;
 
-        yield return new WaitForSeconds(0.5f);
+        enemy_Animator_Component.Trigger_Animator_Attack();
 
-        //공격코드
+        yield return new WaitForSeconds(SpendingTimeToAttack);
+
+        isAttacking = false;
+
+        attackTimer = 0f;
+    }
+
+    private void MeleeAttack()
+    {
         Collider2D[] collider2Ds = Physics2D.OverlapBoxAll(attackPoint.position, hitBox, 0);
         foreach (Collider2D coll in collider2Ds)
         {
             if (coll.CompareTag("Player"))
             {
-                coll.GetComponent<Enemy>().GetDamaged(attackDamage);
+                coll.GetComponent<LivingEntity>().GetDamaged(attackDamage);
             }
         }
-
-        isAttacking = false;
-
-        attackTimer = 0f;
     }
 
     private void OnDrawGizmos()
