@@ -42,9 +42,9 @@ GameObject:
   - component: {fileID: 8425532528330063753}
   - component: {fileID: 6297843667142937887}
   - component: {fileID: 6297843667142937886}
+  - component: {fileID: 6297843667405556282}
   - component: {fileID: 6297843667405556280}
   - component: {fileID: 6297843667405556281}
-  - component: {fileID: 6297843667405556282}
   - component: {fileID: 3384110862995098028}
   m_Layer: 0
   m_Name: AxeStump_Patrol_Ranged
@@ -166,6 +166,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &6297843667405556282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8425532528330063758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 480e7af1cf68954418e4f828dab59812, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startHP: 30
+  attackRange: 5
+  knockbackTime: 0.6
+  _state: 0
 --- !u!114 &6297843667405556280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,25 +210,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isRanged: 1
   attackDamage: 6
-  TimeBetAttack: 1
-  projectile: {fileID: 3458303615994073636, guid: e6c00c9dfcfd3a14cb4df27ce6d8b2e3, type: 3}
+  TimeBetAttack: 0.3
+  projectile: {fileID: 9145575307374494636, guid: abb4a1dcda8350040a5f95069d1e5b6e, type: 3}
   attackPoint: {fileID: 6297843668586890189}
   hitBox: {x: 1, y: 0.8}
---- !u!114 &6297843667405556282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8425532528330063758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 480e7af1cf68954418e4f828dab59812, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startHP: 30
-  attackRange: 5
-  _state: 0
 --- !u!114 &3384110862995098028
 MonoBehaviour:
   m_ObjectHideFlags: 0

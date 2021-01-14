@@ -66,7 +66,7 @@ public class Enemy_Attack_Component : MonoBehaviour
         {
             if (coll.CompareTag("Player"))
             {
-                coll.GetComponent<LivingEntity>().GetDamaged(attackDamage);
+                coll.GetComponent<Enemy>().GetDamaged(attackDamage);
             }
         }
 

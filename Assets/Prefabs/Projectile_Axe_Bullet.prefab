@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5842787857238722213}
   - component: {fileID: 5842787857238722214}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: SpriteComponenet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 9145575307374494636}
   - component: {fileID: 9145575307374494626}
   - component: {fileID: 9145575307374494627}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Projectile_Axe_Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}

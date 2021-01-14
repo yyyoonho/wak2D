@@ -80,7 +80,7 @@ public class Projectile : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if(collision.CompareTag("Ground"))
+        if (collision.CompareTag("Ground"))
         {
             Destroy(gameObject);
         }

@@ -13,7 +13,7 @@ public class LivingEntity : MonoBehaviour
         HP = startHP;
     }
 
-    public void GetDamaged(float damgage)
+    public virtual void GetDamaged(float damgage)
     {
         HP -= damgage;
         if (HP <= 0 && !isDead)

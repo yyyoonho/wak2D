@@ -58,6 +58,18 @@ public class Enemy_Patrol_Component : MonoBehaviour
         }
     }
 
+    public void KnockBack(Transform target)
+    {
+        if(target.position.x < transform.position.x)
+        {
+            transform.position += Vector3.right * 0.7f;
+        }
+        else
+        {
+            transform.position += Vector3.left * 0.7f;
+        }
+    }
+
     private void SwapSide()
     {
         lookingRight = !lookingRight;

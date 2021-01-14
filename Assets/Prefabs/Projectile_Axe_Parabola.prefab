@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 852268845}
   - component: {fileID: 852268846}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: SpriteComponenet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 3458303615994073636}
   - component: {fileID: 3458303615994073642}
   - component: {fileID: 3458303615994073643}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Projectile_Axe_Parabola
   m_TagString: Untagged
   m_Icon: {fileID: 0}
