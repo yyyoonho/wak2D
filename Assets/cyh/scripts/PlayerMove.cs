@@ -7,12 +7,11 @@ public class PlayerMove : MonoBehaviour
     public float movePower = 1f;
     public float jumpPower = 1f;
 
+    [SerializeField] GameObject groundCheck;
     Rigidbody2D rigid;
-    GameObject groundCheck;
     Animator playerAnim;
 
-    Vector3 movement;
-    bool isJumping = false;
+    bool isGround = true;
 
     private void Start()
     {
@@ -21,23 +20,23 @@ public class PlayerMove : MonoBehaviour
     }
     private void Update()
     {
-        if(Input.GetButtonDown("Jump"))
+        //땅을 밟고있다 -> True, 공중에 있다 -> False.
+        isGround = groundCheck.GetComponent<GroundCheck>().getIsGround();
+        if (Input.GetButtonDown("Jump") && isGround)
         {
-            isJumping = true;
+            Jump();
         }
-
     }
+
     private void FixedUpdate()
     {
         Move();
-        Jump();
     }
 
     private void Move()
     {
         Vector3 moveVelocity = Vector3.zero;
         float xMove = Input.GetAxis("Horizontal");
-        Debug.Log(xMove);
         playerAnim.SetFloat("Horizontal", xMove);
         if (xMove<0)
         {
@@ -49,21 +48,16 @@ public class PlayerMove : MonoBehaviour
             moveVelocity = Vector3.right;
             transform.localScale = new Vector3(-1, 1, 1);
         }
-
         transform.position += moveVelocity * movePower * Time.deltaTime;
     }
     private void Jump()
     {
-        if (!isJumping)
-            return;
+        isGround = false;
+        playerAnim.SetTrigger("Jump");
 
         rigid.velocity = Vector2.zero;
 
-        playerAnim.SetTrigger("Jump");
-
         Vector2 jumpVelocity = new Vector2(0, jumpPower);
         rigid.AddForce(jumpVelocity, ForceMode2D.Impulse);
-
-        isJumping = false;
-    }
+     }
 }
