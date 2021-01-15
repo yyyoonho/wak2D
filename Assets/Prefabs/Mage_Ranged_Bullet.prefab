@@ -248,6 +248,7 @@ MonoBehaviour:
   projectile: {fileID: 8590392966637765061, guid: cb13895ce42d5af4181796138aafd82a, type: 3}
   attackPoint: {fileID: 8612715120230691380}
   hitBox: {x: 0.6, y: 0.8}
+  isAttacking: 0
 --- !u!114 &8612715120748449729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,3 +262,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookingPoint: {fileID: 8612715120230691380}
+  lookingRight: 0

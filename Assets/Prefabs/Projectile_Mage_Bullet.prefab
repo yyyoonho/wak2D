@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8590392966637765061}
   - component: {fileID: 8590392966637765062}
   - component: {fileID: 8590392966637765063}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Projectile_Mage_Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}

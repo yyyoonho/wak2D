@@ -8,7 +8,7 @@ public class Enemy_Sprite_Component : MonoBehaviour
 
     private SpriteRenderer sprite;
     private Enemy_Animator_Component enemy_Animator_Component;
-    private bool lookingRight;
+    public bool lookingRight;
     private float blinkTimer = 0f;
 
     public void SwapSide()

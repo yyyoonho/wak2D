@@ -34,7 +34,7 @@ public class Enemy : LivingEntity
     void Update()
     {
         CheckDistance();
-        switch(_state)
+        switch (_state)
         {
             case State.Patrol:
                 patrol_Component.Patrol_Update();
@@ -45,7 +45,7 @@ public class Enemy : LivingEntity
             case State.Damaged:
                 break;
         }
-    }
+    }   
 
     public override void GetDamaged(float damage)
     {
@@ -68,12 +68,15 @@ public class Enemy : LivingEntity
     {
         if (_state == State.Damaged) return;
 
+        if (attack_Component.isAttacking) return;
+
         float distance = Vector2.Distance(transform.position, _player.transform.position);
 
         if(distance <= attackRange)
         {
             if (_state == State.Attack) 
                 return;
+
             ChangeState(State.Attack);
         }
         else
@@ -97,6 +100,8 @@ public class Enemy : LivingEntity
                 patrol_Component.EnterPatrol();
                 break;
             case State.Attack:
+                attack_Component.Enter_Attack_State();
+                sprite_Component.LookAtTarget(_player.transform);
                 break;
             case State.Damaged:
                 break;
