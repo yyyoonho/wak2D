@@ -17,6 +17,7 @@ public class Projectile : MonoBehaviour
     private Vector3 dir;
     private GameObject target;
     private Rigidbody2D rb2d;
+    private Animator _animator;
 
     public void Init(GameObject _target, float _damage)
     {
@@ -28,6 +29,7 @@ public class Projectile : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         dir = (target.transform.position - transform.position).normalized;
         MAX_Y = transform.position.y + MAX_Y;
@@ -45,6 +47,11 @@ public class Projectile : MonoBehaviour
         if(rangedAttackKind == ProjectileKind.Bullet)
         {
             transform.position += dir * bulletSpeed * Time.deltaTime;
+        }
+        else if(rangedAttackKind == ProjectileKind.Parabola)
+        {
+            float angle = Mathf.Atan2(rb2d.velocity.y, rb2d.velocity.x);
+            transform.localEulerAngles = new Vector3(0, 0, (angle * 180) / Mathf.PI);
         }
     }
 
@@ -77,17 +84,26 @@ public class Projectile : MonoBehaviour
         rb2d.velocity = new Vector2(vx, vy);
     }
 
+    private void Destroy()
+    {
+        Destroy(gameObject);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
         {
+            _animator.SetTrigger("Explode");
             collision.GetComponent<LivingEntity>().GetDamaged(damage);
-            Destroy(gameObject);
+            Destroy(gameObject,3f);
+            this.enabled = false;
         }
 
         if (collision.CompareTag("Ground"))
         {
-            Destroy(gameObject);
+            _animator.SetTrigger("Explode");
+            Destroy(gameObject,3f);
+            this.enabled = false;
         }
     }
 }
