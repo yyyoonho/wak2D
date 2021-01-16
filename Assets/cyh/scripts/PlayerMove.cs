@@ -11,21 +11,25 @@ public class PlayerMove : MonoBehaviour
     Rigidbody2D rigid;
     Animator playerAnim;
 
-    bool isGround = true;
+    bool isGround;
 
     private void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
         playerAnim = GetComponent<Animator>();
     }
+
     private void Update()
     {
-        //땅을 밟고있다 -> True, 공중에 있다 -> False.
-        isGround = groundCheck.GetComponent<GroundCheck>().getIsGround();
-        if (Input.GetButtonDown("Jump") && isGround)
+        // 점프입력을 받는다.
+        if (Input.GetButtonDown("Jump"))
         {
-            Jump();
+            //땅을 밟고있다 -> True, 공중에 있다 -> False.
+            isGround = groundCheck.GetComponent<GroundCheck>().getIsGround();
+            if(isGround)
+                Jump();
         }
+
     }
 
     private void FixedUpdate()
@@ -50,6 +54,7 @@ public class PlayerMove : MonoBehaviour
         }
         transform.position += moveVelocity * movePower * Time.deltaTime;
     }
+
     private void Jump()
     {
         isGround = false;
