@@ -4,65 +4,73 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float movePower = 1f;
-    public float jumpPower = 1f;
-
-    [SerializeField] GameObject groundCheck;
+    //참조를 위한 컴포넌트
+    GameObject groundCheck;
     Rigidbody2D rigid;
-    Animator playerAnim;
 
-    bool isGround;
+    //Inspector에서 조정하기 위한 속성
+    public float speed = 12.0f;         //플레이어 캐릭터의 속도
+    public float jumpPower = 500.0f;    //플래이어 캐릭터를 점프시켰을 때의 파워
 
+    //내부에서 다루는 변수
+    bool grounded;                      //접지 체크
+    float xMove;                        //x축 기준 이동방향
+
+    /*-----------------------------------------------------------------------------------*/
+
+    //컴포넌트 실행 시작
     private void Start()
     {
-        rigid = GetComponent<Rigidbody2D>();
-        playerAnim = GetComponent<Animator>();
+        groundCheck = transform.Find("GroundCheck").gameObject;
+        rigid = gameObject.GetComponent<Rigidbody2D>();
+        grounded = false;
     }
-
+    
+    //Update 함수
     private void Update()
     {
-        // 점프입력을 받는다.
-        if (Input.GetButtonDown("Jump"))
+        //땅을 밟고 있는지 체크. (땅을 밟고 있다 -> true/ 밟고 있지 않다 -> false)
+        grounded = groundCheck.GetComponent<GroundCheck>().getIsGround();
+
+        //땅을 밟은 상태에서 점프키 입력 시 점프함수 실행.
+        if(grounded && Input.GetButtonDown("Jump"))
         {
-            //땅을 밟고있다 -> True, 공중에 있다 -> False.
-            isGround = groundCheck.GetComponent<GroundCheck>().getIsGround();
-            if(isGround)
-                Jump();
+            Jump();
         }
+
+        //이동 키를 입력.
+        xMove = Input.GetAxis("Horizontal");
 
     }
 
+    //FixedUpdate 함수
     private void FixedUpdate()
     {
-        Move();
-    }
-
-    private void Move()
-    {
-        Vector3 moveVelocity = Vector3.zero;
-        float xMove = Input.GetAxis("Horizontal");
-        playerAnim.SetFloat("Horizontal", xMove);
-        if (xMove<0)
+        if (xMove != 0)
         {
-            moveVelocity = Vector3.left;
-            transform.localScale = new Vector3(1, 1, 1);
+            Move();
         }
-        else if (xMove > 0)
-        { 
-            moveVelocity = Vector3.right;
-            transform.localScale = new Vector3(-1, 1, 1);
-        }
-        transform.position += moveVelocity * movePower * Time.deltaTime;
     }
 
+    //점프 함수
     private void Jump()
     {
-        isGround = false;
-        playerAnim.SetTrigger("Jump");
+        rigid.AddForce(new Vector2(0.0f, jumpPower));
+    }
 
-        rigid.velocity = Vector2.zero;
 
-        Vector2 jumpVelocity = new Vector2(0, jumpPower);
-        rigid.AddForce(jumpVelocity, ForceMode2D.Impulse);
-     }
+    //움직임 함수
+    private void Move()
+    {
+        if(xMove>0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+            rigid.velocity = new Vector2(xMove * speed, rigid.velocity.y);
+        }
+        else if(xMove<0)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+            rigid.velocity = new Vector2(xMove * speed, rigid.velocity.y);
+        }
+    }
 }

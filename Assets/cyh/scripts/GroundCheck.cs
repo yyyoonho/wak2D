@@ -5,7 +5,6 @@ using UnityEngine;
 public class GroundCheck : MonoBehaviour
 {
     bool isGround;
-    public Animator playerAnim;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
