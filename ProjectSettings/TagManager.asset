@@ -4,6 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Enemy
   - Ground
   layers:
   - Default
@@ -14,9 +15,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Ground
+  - Player
+  - Projectile
   - 
   - 
   - 
@@ -50,4 +51,6 @@ TagManager:
     locked: 0
   - name: CharacterLayer
     uniqueID: 3911672223
+  - name: Player
+    uniqueID: 1207679887
     locked: 0
