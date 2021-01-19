@@ -49,6 +49,8 @@ TagManager:
   - name: GroundLayer
     uniqueID: 2927272793
     locked: 0
+  - name: CharacterLayer
+    uniqueID: 3911672223
   - name: Player
     uniqueID: 1207679887
     locked: 0
