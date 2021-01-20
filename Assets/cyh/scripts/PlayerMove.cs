@@ -68,12 +68,12 @@ public class PlayerMove : MonoBehaviour
         
         if (xMove>0)
         {
-            transform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(1, 1, 1);
             rigid.velocity = new Vector2(xMove * speed, rigid.velocity.y);
         }
         else if(xMove<0)
         {
-            transform.localScale = new Vector3(1, 1, 1);
+            transform.localScale = new Vector3(-1, 1, 1);
             rigid.velocity = new Vector2(xMove * speed, rigid.velocity.y);
         }
     }
