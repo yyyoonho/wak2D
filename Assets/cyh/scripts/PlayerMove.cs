@@ -7,6 +7,7 @@ public class PlayerMove : MonoBehaviour
     //참조를 위한 컴포넌트
     GameObject groundCheck;
     Rigidbody2D rigid;
+    Animator playerAnim;
 
     //Inspector에서 조정하기 위한 속성
     public float speed = 12.0f;         //플레이어 캐릭터의 속도
@@ -23,6 +24,7 @@ public class PlayerMove : MonoBehaviour
     {
         groundCheck = transform.Find("GroundCheck").gameObject;
         rigid = gameObject.GetComponent<Rigidbody2D>();
+        playerAnim = gameObject.GetComponent<Animator>();
         grounded = false;
     }
     
@@ -40,7 +42,7 @@ public class PlayerMove : MonoBehaviour
 
         //이동 키를 입력.
         xMove = Input.GetAxis("Horizontal");
-
+        playerAnim.SetFloat("Horizontal", Mathf.Abs(xMove));
     }
 
     //FixedUpdate 함수
@@ -55,6 +57,7 @@ public class PlayerMove : MonoBehaviour
     //점프 함수
     private void Jump()
     {
+        playerAnim.SetTrigger("Jump");
         rigid.AddForce(new Vector2(0.0f, jumpPower));
     }
 
@@ -62,7 +65,8 @@ public class PlayerMove : MonoBehaviour
     //움직임 함수
     private void Move()
     {
-        if(xMove>0)
+        
+        if (xMove>0)
         {
             transform.localScale = new Vector3(-1, 1, 1);
             rigid.velocity = new Vector2(xMove * speed, rigid.velocity.y);
