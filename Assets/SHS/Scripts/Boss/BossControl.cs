@@ -9,7 +9,7 @@ public class BossControl : LivingEntity
     public float teleportGap;
     public Transform groundCheck;
 
-    private int patternIdx = 0;
+    public int patternIdx = 0;
     private bool isLookingRight = false;
     private GameObject _player;
     private Animator _animator;
@@ -27,6 +27,7 @@ public class BossControl : LivingEntity
     {
         if(HP <= PatternHPList[patternIdx])
         {
+            Debug.Log(PatternHPList[patternIdx]);
             patternIdx++;
             _animator.SetTrigger("TriggerPattern");
         }

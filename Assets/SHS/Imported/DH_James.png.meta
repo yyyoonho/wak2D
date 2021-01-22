@@ -1,0 +1,1756 @@
+fileFormatVersion: 2
+guid: 132d3055439ff7b4bb12dfe8702645e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6332091573757307112
+    second: DH_James_0
+  - first:
+      213: 2919776211136658355
+    second: DH_James_1
+  - first:
+      213: -5621921254593896816
+    second: DH_James_2
+  - first:
+      213: 7548319405367864487
+    second: DH_James_3
+  - first:
+      213: -4950849951456983866
+    second: DH_James_4
+  - first:
+      213: -7971331306803756155
+    second: DH_James_5
+  - first:
+      213: 8024379991814239299
+    second: DH_James_6
+  - first:
+      213: 6715811993967777188
+    second: DH_James_7
+  - first:
+      213: -4964617710120685070
+    second: DH_James_8
+  - first:
+      213: 7059859996771015658
+    second: DH_James_9
+  - first:
+      213: -5888107710539465961
+    second: DH_James_10
+  - first:
+      213: 1202476589475081676
+    second: DH_James_11
+  - first:
+      213: 8070734296352438148
+    second: DH_James_12
+  - first:
+      213: -7171840558653945320
+    second: DH_James_13
+  - first:
+      213: 4313757363692885201
+    second: DH_James_14
+  - first:
+      213: -6240170237897810393
+    second: DH_James_15
+  - first:
+      213: -5361730242902888098
+    second: DH_James_16
+  - first:
+      213: -6351546991684464115
+    second: DH_James_17
+  - first:
+      213: -8212770040062841161
+    second: DH_James_18
+  - first:
+      213: -7951933759659686269
+    second: DH_James_19
+  - first:
+      213: 8274658578012303525
+    second: DH_James_20
+  - first:
+      213: -3773583392751048546
+    second: DH_James_21
+  - first:
+      213: -1869333039052842694
+    second: DH_James_22
+  - first:
+      213: -4253438868708985039
+    second: DH_James_23
+  - first:
+      213: 1879471216634157215
+    second: DH_James_24
+  - first:
+      213: 4323726858411288226
+    second: DH_James_25
+  - first:
+      213: 8490907585331003897
+    second: DH_James_26
+  - first:
+      213: 3937814370057044036
+    second: DH_James_27
+  - first:
+      213: 4791797517826231730
+    second: DH_James_28
+  - first:
+      213: 2164294562622658730
+    second: DH_James_29
+  - first:
+      213: 1806977978060232474
+    second: DH_James_30
+  - first:
+      213: -5931875757231416647
+    second: DH_James_31
+  - first:
+      213: -9004890742755009871
+    second: DH_James_32
+  - first:
+      213: -8016073804863096479
+    second: DH_James_33
+  - first:
+      213: 8582416340259149622
+    second: DH_James_34
+  - first:
+      213: -3235340869487378270
+    second: DH_James_35
+  - first:
+      213: 5415054599966701456
+    second: DH_James_36
+  - first:
+      213: 3399673215899704741
+    second: DH_James_37
+  - first:
+      213: -6235206593556572733
+    second: DH_James_38
+  - first:
+      213: -2522364182169930250
+    second: DH_James_39
+  - first:
+      213: -2369643997642359539
+    second: DH_James_40
+  - first:
+      213: 4640451718688171615
+    second: DH_James_41
+  - first:
+      213: 4600013892292410219
+    second: DH_James_42
+  - first:
+      213: -1114143157249858720
+    second: DH_James_43
+  - first:
+      213: -465322132402517448
+    second: DH_James_44
+  - first:
+      213: 6516239133905304256
+    second: DH_James_45
+  - first:
+      213: 6270206474774639800
+    second: DH_James_46
+  - first:
+      213: 976557997788899711
+    second: DH_James_47
+  - first:
+      213: 5709755848044750765
+    second: DH_James_48
+  - first:
+      213: 4212662146775108760
+    second: DH_James_49
+  - first:
+      213: -1552891322646560680
+    second: DH_James_50
+  - first:
+      213: 971799978260478972
+    second: DH_James_51
+  - first:
+      213: -1344014136043760073
+    second: DH_James_52
+  - first:
+      213: 5711057885376915808
+    second: DH_James_53
+  - first:
+      213: 8498113691359432788
+    second: DH_James_54
+  - first:
+      213: 5441428139263448541
+    second: DH_James_55
+  - first:
+      213: 2740036188553387215
+    second: DH_James_56
+  - first:
+      213: 7073597600239387709
+    second: DH_James_57
+  - first:
+      213: -8647639583045881564
+    second: DH_James_58
+  - first:
+      213: 7745488124365462360
+    second: DH_James_59
+  - first:
+      213: 6477753291399643764
+    second: DH_James_60
+  - first:
+      213: 902590175373293711
+    second: DH_James_61
+  - first:
+      213: 1729072723337417979
+    second: DH_James_62
+  - first:
+      213: 3808104350676981784
+    second: DH_James_63
+  - first:
+      213: -2256405883801578164
+    second: DH_James_64
+  - first:
+      213: -2300603348214868939
+    second: DH_James_65
+  - first:
+      213: -7356699828911623908
+    second: DH_James_66
+  - first:
+      213: -4169307472918208338
+    second: DH_James_67
+  - first:
+      213: 8763265614197614596
+    second: DH_James_68
+  - first:
+      213: 8559215204266151246
+    second: DH_James_69
+  - first:
+      213: 4897506712852320938
+    second: DH_James_70
+  - first:
+      213: 2073633011964796111
+    second: DH_James_71
+  - first:
+      213: 6895772497972006310
+    second: DH_James_72
+  - first:
+      213: 2843898335236661924
+    second: DH_James_73
+  - first:
+      213: -5733326234556812012
+    second: DH_James_74
+  - first:
+      213: 5423732442836537297
+    second: DH_James_75
+  - first:
+      213: 970766202827295051
+    second: DH_James_76
+  - first:
+      213: 2560640314732791463
+    second: DH_James_77
+  - first:
+      213: 685943483169353818
+    second: DH_James_78
+  - first:
+      213: 8635337960591299130
+    second: DH_James_79
+  - first:
+      213: 3064667393382165310
+    second: DH_James_80
+  - first:
+      213: 7508146482281158984
+    second: DH_James_81
+  - first:
+      213: -6123185975896886230
+    second: DH_James_82
+  - first:
+      213: -6307099808946431764
+    second: DH_James_83
+  - first:
+      213: -3740506727701090029
+    second: DH_James_84
+  - first:
+      213: 3476730027204710745
+    second: DH_James_85
+  - first:
+      213: 3696731334809144897
+    second: DH_James_86
+  - first:
+      213: -2058039342270673506
+    second: DH_James_87
+  - first:
+      213: 1851190069396531485
+    second: DH_James_88
+  - first:
+      213: -8142893122368588264
+    second: DH_James_89
+  - first:
+      213: -3280035318245513776
+    second: DH_James_90
+  - first:
+      213: 6809118286936371979
+    second: DH_James_91
+  - first:
+      213: -3449765994790110914
+    second: DH_James_92
+  - first:
+      213: -129211228019361979
+    second: DH_James_93
+  - first:
+      213: 4946754797770492213
+    second: DH_James_94
+  - first:
+      213: 169422595197788441
+    second: DH_James_95
+  - first:
+      213: 7709273448862915244
+    second: DH_James_96
+  - first:
+      213: 3531494522825923856
+    second: DH_James_97
+  - first:
+      213: 2763015577839291033
+    second: DH_James_98
+  - first:
+      213: -8667973241581540291
+    second: DH_James_99
+  - first:
+      213: -6477074833369438219
+    second: DH_James_100
+  - first:
+      213: -4095597611655202971
+    second: DH_James_101
+  - first:
+      213: -3036422376679196889
+    second: DH_James_102
+  - first:
+      213: -5771979528482807542
+    second: DH_James_103
+  - first:
+      213: -6211646164414171915
+    second: DH_James_104
+  - first:
+      213: 3511745179227705857
+    second: DH_James_105
+  - first:
+      213: -4348920766600478178
+    second: DH_James_106
+  - first:
+      213: -3874622817844346855
+    second: DH_James_107
+  - first:
+      213: 4545045547098832913
+    second: DH_James_108
+  - first:
+      213: -512444384441142226
+    second: DH_James_109
+  - first:
+      213: -3336444762108264679
+    second: DH_James_110
+  - first:
+      213: -6705692911983024212
+    second: DH_James_111
+  - first:
+      213: -8114707887990746322
+    second: DH_James_112
+  - first:
+      213: 2355172652405676350
+    second: DH_James_113
+  - first:
+      213: -7177632715974558490
+    second: DH_James_114
+  - first:
+      213: -4077590484878830951
+    second: DH_James_115
+  - first:
+      213: -3481674267348167348
+    second: DH_James_116
+  - first:
+      213: -3585344103394988421
+    second: DH_James_117
+  - first:
+      213: 8731730239674329513
+    second: DH_James_118
+  - first:
+      213: 1196300766442657596
+    second: DH_James_119
+  - first:
+      213: -4356946612541226454
+    second: DH_James_120
+  - first:
+      213: -5716339120165991401
+    second: DH_James_121
+  - first:
+      213: -1543037801072015177
+    second: DH_James_122
+  - first:
+      213: -668479323928394404
+    second: DH_James_123
+  - first:
+      213: 1367522890640507076
+    second: DH_James_124
+  - first:
+      213: 746050554379525705
+    second: DH_James_125
+  - first:
+      213: 3365944851092309096
+    second: DH_James_126
+  - first:
+      213: -1760384361298661810
+    second: DH_James_127
+  - first:
+      213: -8461846776069862780
+    second: DH_James_128
+  - first:
+      213: -3029047604637885763
+    second: DH_James_129
+  - first:
+      213: 6772161921583884223
+    second: DH_James_130
+  - first:
+      213: 2530387325819287622
+    second: DH_James_131
+  - first:
+      213: 3983612742595629858
+    second: DH_James_132
+  - first:
+      213: -8708404176056774311
+    second: DH_James_133
+  - first:
+      213: -8076947101401336473
+    second: DH_James_134
+  - first:
+      213: -3465217452621810500
+    second: DH_James_135
+  - first:
+      213: -4582397974823658412
+    second: DH_James_136
+  - first:
+      213: 5758316558264422491
+    second: DH_James_137
+  - first:
+      213: -6113194611853666776
+    second: DH_James_138
+  - first:
+      213: -6049626851342025418
+    second: DH_James_139
+  - first:
+      213: 1184622704357021789
+    second: DH_James_140
+  - first:
+      213: 5614768377585866126
+    second: DH_James_141
+  - first:
+      213: 9095717029782332948
+    second: DH_James_142
+  - first:
+      213: -1879226624680360736
+    second: DH_James_143
+  - first:
+      213: 4198459629862948903
+    second: DH_James_144
+  - first:
+      213: -7182846806466171659
+    second: DH_James_145
+  - first:
+      213: 8989061780120307137
+    second: DH_James_146
+  - first:
+      213: -4362120957484258280
+    second: DH_James_147
+  - first:
+      213: 5065283778422118021
+    second: DH_James_148
+  - first:
+      213: -4487107461564944427
+    second: DH_James_149
+  - first:
+      213: 2845871318665700063
+    second: DH_James_150
+  - first:
+      213: 5976300411546651934
+    second: DH_James_151
+  - first:
+      213: -2398721603323299497
+    second: DH_James_152
+  - first:
+      213: -848909385543894004
+    second: DH_James_153
+  - first:
+      213: -530509159284702669
+    second: DH_James_154
+  - first:
+      213: -4641588184621956659
+    second: DH_James_155
+  - first:
+      213: -3291427267384135137
+    second: DH_James_156
+  - first:
+      213: 5221147302664974888
+    second: DH_James_157
+  - first:
+      213: 6586214944338714460
+    second: DH_James_158
+  - first:
+      213: 4432246410751600080
+    second: DH_James_159
+  - first:
+      213: -2911067682858203000
+    second: DH_James_160
+  - first:
+      213: -8896494040497195778
+    second: DH_James_161
+  - first:
+      213: 4630966676158207023
+    second: DH_James_162
+  - first:
+      213: 3871081238719754638
+    second: DH_James_163
+  - first:
+      213: 8005288593577464054
+    second: DH_James_164
+  - first:
+      213: 4982223088990263517
+    second: DH_James_165
+  - first:
+      213: 5772935316426551419
+    second: DH_James_166
+  - first:
+      213: 1691719687882620425
+    second: DH_James_167
+  - first:
+      213: 8681545017421903086
+    second: DH_James_168
+  - first:
+      213: 170989322997268490
+    second: DH_James_169
+  - first:
+      213: 2929610340256304329
+    second: DH_James_170
+  - first:
+      213: 7800336539041780206
+    second: DH_James_171
+  - first:
+      213: -5495191695705512544
+    second: DH_James_172
+  - first:
+      213: -7968863934337205117
+    second: DH_James_173
+  - first:
+      213: 5510876194082005121
+    second: DH_James_174
+  - first:
+      213: 3303847651753607023
+    second: DH_James_175
+  - first:
+      213: 9042864621818179927
+    second: DH_James_176
+  - first:
+      213: 4578408819637101817
+    second: DH_James_177
+  - first:
+      213: -476687649574725295
+    second: DH_James_178
+  - first:
+      213: 2943829608891120511
+    second: DH_James_179
+  - first:
+      213: -1323211176398039231
+    second: DH_James_180
+  - first:
+      213: -8500285497004300172
+    second: DH_James_181
+  - first:
+      213: 3436710549043602304
+    second: DH_James_182
+  - first:
+      213: -7461337078197978771
+    second: DH_James_183
+  - first:
+      213: 2537457318473816203
+    second: DH_James_184
+  - first:
+      213: 8629905114432331098
+    second: DH_James_185
+  - first:
+      213: 4111654896301983881
+    second: DH_James_186
+  - first:
+      213: 3415219659276381182
+    second: DH_James_187
+  - first:
+      213: 2421451392832520236
+    second: DH_James_188
+  - first:
+      213: 2115459010623756940
+    second: DH_James_189
+  - first:
+      213: 6159931909466434268
+    second: DH_James_190
+  - first:
+      213: -3683099728159292034
+    second: DH_James_191
+  - first:
+      213: 6359956714138316180
+    second: DH_James_192
+  - first:
+      213: -4586986272892113944
+    second: DH_James_193
+  - first:
+      213: 7695381499281339175
+    second: DH_James_194
+  - first:
+      213: 4315786773001829364
+    second: DH_James_195
+  - first:
+      213: -7576224400894921945
+    second: DH_James_196
+  - first:
+      213: -3370997135582213969
+    second: DH_James_197
+  - first:
+      213: -7280659699581790885
+    second: DH_James_198
+  - first:
+      213: 5081114265151279061
+    second: DH_James_199
+  - first:
+      213: 335733356553340547
+    second: DH_James_200
+  - first:
+      213: -3500361488580479603
+    second: DH_James_201
+  - first:
+      213: -8838072387567605463
+    second: DH_James_202
+  - first:
+      213: 5102141391186471280
+    second: DH_James_203
+  - first:
+      213: 2277756038745583263
+    second: DH_James_204
+  - first:
+      213: -7546134782959645498
+    second: DH_James_205
+  - first:
+      213: 3044020810931456643
+    second: DH_James_206
+  - first:
+      213: 3380973035508811660
+    second: DH_James_207
+  - first:
+      213: -3703057333528769413
+    second: DH_James_208
+  - first:
+      213: 2678292107014116945
+    second: DH_James_209
+  - first:
+      213: 9092968599038942279
+    second: DH_James_210
+  - first:
+      213: -1771463923022330568
+    second: DH_James_211
+  - first:
+      213: 7858348279468167717
+    second: DH_James_212
+  - first:
+      213: 8800474526625858497
+    second: DH_James_213
+  - first:
+      213: 1724204022272209907
+    second: DH_James_214
+  - first:
+      213: 3151575668407469081
+    second: DH_James_215
+  - first:
+      213: -8594638155843277951
+    second: DH_James_216
+  - first:
+      213: -3378289021591436511
+    second: DH_James_217
+  - first:
+      213: -3917756333697657104
+    second: DH_James_218
+  - first:
+      213: 7753685439305984694
+    second: DH_James_219
+  - first:
+      213: 5130626672189787324
+    second: DH_James_220
+  - first:
+      213: 6506792665392171604
+    second: DH_James_221
+  - first:
+      213: -2868157842590906716
+    second: DH_James_222
+  - first:
+      213: 3670637541507229027
+    second: DH_James_223
+  - first:
+      213: -2807875260908319828
+    second: DH_James_224
+  - first:
+      213: -5772926534715242019
+    second: DH_James_225
+  - first:
+      213: -7433886413087762077
+    second: DH_James_209
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DH_James_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 444
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81793f43344ef18a0800000000000000
+      internalID: -6332091573757307112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 444
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbbf609ef0258820800000000000000
+      internalID: 2919776211136658355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 444
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e56b8b76ceaf1b0800000000000000
+      internalID: -5621921254593896816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_5
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 441
+        width: 71
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583030f0964206190800000000000000
+      internalID: -7971331306803756155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_15
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 463
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ed2200b367669a0800000000000000
+      internalID: -6240170237897810393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_20
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 463
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0ff0cb22e75d270800000000000000
+      internalID: 8274658578012303525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_42
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 376
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b73fb534886df30800000000000000
+      internalID: 4600013892292410219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_43
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 376
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063a03393b4c980f0800000000000000
+      internalID: -1114143157249858720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_64
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 377
+        width: 71
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45d7eabdc2afa0e0800000000000000
+      internalID: -2256405883801578164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_77
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 305
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a64135acc8398320800000000000000
+      internalID: 2560640314732791463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_78
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 305
+        width: 71
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50bd42b6f5f48900800000000000000
+      internalID: 685943483169353818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_79
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 307
+        width: 97
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a329d788f12e6d770800000000000000
+      internalID: 8635337960591299130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_80
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 305
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b2449c1c2e78a20800000000000000
+      internalID: 3064667393382165310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_87
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 320
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d8d264f106073e0800000000000000
+      internalID: -2058039342270673506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_89
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 201
+        width: 70
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816bf3d19d1aefe80800000000000000
+      internalID: -8142893122368588264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_90
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 116
+        width: 76
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5ad35a149fa72d0800000000000000
+      internalID: -3280035318245513776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_91
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 201
+        width: 72
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0375767109de7e50800000000000000
+      internalID: 6809118286936371979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_92
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 201
+        width: 89
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39305afa18ff10d0800000000000000
+      internalID: -3449765994790110914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_93
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 201
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547f9ec9213f43ef0800000000000000
+      internalID: -129211228019361979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_94
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 201
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539c110974766a440800000000000000
+      internalID: 4946754797770492213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_95
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 201
+        width: 81
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91160b3e3f8e95200800000000000000
+      internalID: 169422595197788441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_96
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 201
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa13d33b57dcfa60800000000000000
+      internalID: 7709273448862915244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_97
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 201
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01dd64fce83620130800000000000000
+      internalID: 3531494522825923856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_98
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 201
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a4bf96704385620800000000000000
+      internalID: 2763015577839291033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_99
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 201
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ce0fcf24c25b780800000000000000
+      internalID: -8667973241581540291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_100
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 200
+        width: 78
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7646d81cecc16a0800000000000000
+      internalID: -6477074833369438219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_101
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 200
+        width: 90
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5677a5eeba38927c0800000000000000
+      internalID: -4095597611655202971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_102
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 200
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7273df1afe57cd5d0800000000000000
+      internalID: -3036422376679196889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_103
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 116
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01a4f9333fc5efa0800000000000000
+      internalID: -5771979528482807542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_104
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 10
+        width: 52
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4fca369bccbc9a0800000000000000
+      internalID: -6211646164414171915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_113
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 161
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39da539c014fa020800000000000000
+      internalID: 2355172652405676350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_114
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 116
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec3d14d21de36c90800000000000000
+      internalID: -7177632715974558490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_140
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 121
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58101eb210a07010800000000000000
+      internalID: 1184622704357021789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_141
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 121
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e851a12571aabed40800000000000000
+      internalID: 5614768377585866126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_156
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 10
+        width: 60
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12b88bc6508252d0800000000000000
+      internalID: -3291427267384135137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_157
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 10
+        width: 58
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822b5571fcd357840800000000000000
+      internalID: 5221147302664974888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_176
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 48
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7517b6f5675be7d70800000000000000
+      internalID: 9042864621818179927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_177
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 80
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f42cf26096c98f30800000000000000
+      internalID: 4578408819637101817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_178
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 78
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159584abb177269f0800000000000000
+      internalID: -476687649574725295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_194
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 10
+        width: 36
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723f6c3a3bc7bca60800000000000000
+      internalID: 7695381499281339175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_195
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 70
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb7a1b3431c4eb30800000000000000
+      internalID: 4315786773001829364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_196
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 69
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723f2064c08dbd690800000000000000
+      internalID: -7576224400894921945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_197
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 70
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa843ca27ffc731d0800000000000000
+      internalID: -3370997135582213969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_208
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 10
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ccc1c89f81c9cc0800000000000000
+      internalID: -3703057333528769413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DH_James_210
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 10
+        width: 19
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c5f73a3c6b03e70800000000000000
+      internalID: 9092968599038942279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

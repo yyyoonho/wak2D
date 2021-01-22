@@ -5,6 +5,7 @@ using UnityEngine;
 public class Boss_Attack_Componenet : MonoBehaviour
 {
     public float attackDamage;
+    public Transform shockWavePoint;
     public Transform attackPoint;
     public Vector2 hitBox;
 
@@ -14,7 +15,7 @@ public class Boss_Attack_Componenet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        _player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
@@ -34,6 +35,16 @@ public class Boss_Attack_Componenet : MonoBehaviour
             }
         }
         isAttacking = false;
+    }
+
+    private void ShockWave()
+    {
+        GameObject g = EffectPool.instance.GetObject("ShockWave");
+        g.transform.position = shockWavePoint.position;
+        if(_player.transform.position.x >= transform.position.x)
+        {
+            g.transform.localScale = new Vector3(-(g.transform.localScale.x), g.transform.localScale.y, g.transform.localScale.z);
+        }
     }
 
     private void OnDrawGizmos()
