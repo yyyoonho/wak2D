@@ -10,7 +10,7 @@ public class BossControl : LivingEntity
     public Transform groundCheck;
 
     public int patternIdx = 0;
-    private bool isLookingRight = false;
+    public bool isLookingRight = false;
     private GameObject _player;
     private Animator _animator;
 
@@ -25,7 +25,7 @@ public class BossControl : LivingEntity
     // Update is called once per frame
     void Update()
     {
-        if(HP <= PatternHPList[patternIdx])
+        if(patternIdx < PatternHPList.Count && HP <= PatternHPList[patternIdx])
         {
             Debug.Log(PatternHPList[patternIdx]);
             patternIdx++;
@@ -46,6 +46,17 @@ public class BossControl : LivingEntity
         {
             transform.position = _player.transform.position + new Vector3(teleportGap, 0f, 0f);
             if (isLookingRight) SwapSide();
+        }
+    }
+
+    private void LookAtPlayer()
+    {
+        if (_player.transform.position.x >= transform.position.x)
+        {
+            if(!isLookingRight)
+            {
+                SwapSide();
+            }
         }
     }
 

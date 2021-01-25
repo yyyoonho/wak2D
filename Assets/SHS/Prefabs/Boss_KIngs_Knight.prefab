@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &136196288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 136196289}
+  m_Layer: 0
+  m_Name: ThunderBallPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &136196289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136196288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.09, y: 0.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5083774983402912191}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &269376253
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,7 +188,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1544532051
+  m_SortingLayerID: 1207679887
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a0746b2375845584fa94866b928b0a60, type: 3}
@@ -208,6 +238,7 @@ Transform:
   - {fileID: 269376254}
   - {fileID: 486071074}
   - {fileID: 306392568}
+  - {fileID: 136196289}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -289,16 +320,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceb1eba098b8fd04b9c7ae2427932522, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startHP: 1000
-  HP: 800
+  startHP: 2000
+  HP: 2000
   PatternHPList:
-  - 900
-  - 700
-  - 500
+  - 1300
+  - 600
   timeBetPattern: 
   teleportGap: 1.5
   groundCheck: {fileID: 269376254}
   patternIdx: 0
+  isLookingRight: 0
 --- !u!114 &2426392477863998961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -313,6 +344,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackDamage: 50
   shockWavePoint: {fileID: 306392568}
+  thunderBallPoint: {fileID: 136196289}
   attackPoint: {fileID: 486071074}
+  sideTransformList:
+  - {fileID: 0}
+  - {fileID: 0}
   hitBox: {x: 2.4, y: 3.5}
   isAttacking: 0

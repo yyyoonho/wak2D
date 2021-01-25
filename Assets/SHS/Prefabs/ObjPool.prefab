@@ -44,4 +44,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shockWavePrefab: {fileID: 7475200841026239524, guid: 2afa31513b6a8464dbb3756afc720003, type: 3}
+  thunderBallPrefab: {fileID: 7995323588606501608, guid: 5972b37de4b46fd469da20994236cf01, type: 3}
   objPool: {fileID: 8804160838413327604}

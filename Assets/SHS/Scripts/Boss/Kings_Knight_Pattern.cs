@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Kings_Knight_Pattern2 : StateMachineBehaviour
+public class Kings_Knight_Pattern : StateMachineBehaviour
 {
+    public int phaseNum;
     public float TimeBetAttack;
     public bool isAttacking = false;
 
@@ -25,7 +26,8 @@ public class Kings_Knight_Pattern2 : StateMachineBehaviour
         if (attackTimer >= TimeBetAttack && !isAttacking)
         {
             isAttacking = true;
-            animator.SetTrigger("Pattern2");
+            string s = "Pattern" + phaseNum.ToString();
+            animator.SetTrigger(s);
         }
     }
 

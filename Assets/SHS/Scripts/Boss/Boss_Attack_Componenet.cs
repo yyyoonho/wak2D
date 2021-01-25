@@ -6,11 +6,15 @@ public class Boss_Attack_Componenet : MonoBehaviour
 {
     public float attackDamage;
     public Transform shockWavePoint;
+    public Transform thunderBallPoint;
     public Transform attackPoint;
+    public List<Transform> sideTransformList;
     public Vector2 hitBox;
 
+    private bool isLookingLeft = true;
     private GameObject _player;
     public bool isAttacking = false;
+    private GameObject thunderBall;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +27,16 @@ public class Boss_Attack_Componenet : MonoBehaviour
     {
         
     }
+
+    /*
+    private void LookAtPlayer()
+    {
+        if (_player.transform.position.x >= transform.position.x)
+        {
+            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        }
+    }
+    */
 
     private void MeleeAttack(float attackDamage)
     {
@@ -45,6 +59,32 @@ public class Boss_Attack_Componenet : MonoBehaviour
         {
             g.transform.localScale = new Vector3(-(g.transform.localScale.x), g.transform.localScale.y, g.transform.localScale.z);
         }
+    }
+
+    private void ThunderBall()
+    {
+        GameObject g = EffectPool.instance.GetObject("ThunderBall");
+        g.transform.position = thunderBallPoint.position;
+        if(thunderBall == null)
+        {
+            thunderBall = g;
+        }
+    }
+
+    private void ThrowThunderBall()
+    {
+        if (thunderBall != null)
+        {
+            thunderBall.GetComponent<ThunderBall>().Shot(_player.transform);
+            thunderBall = null;
+        }
+    }
+
+    private void TeleportToSide()
+    {
+        int r = Random.Range(0, sideTransformList.Count);
+        transform.position = sideTransformList[r].position;
+
     }
 
     private void OnDrawGizmos()

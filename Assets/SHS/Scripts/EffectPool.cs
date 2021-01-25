@@ -6,9 +6,11 @@ public class EffectPool : MonoBehaviour
 {
     public static EffectPool instance;
     public GameObject shockWavePrefab;
+    public GameObject thunderBallPrefab;
     public Transform objPool;
 
     private GameObject[] shockWaveList;
+    private GameObject[] thunderBallList;
     private GameObject[] target;
 
     private void Awake()
@@ -19,12 +21,20 @@ public class EffectPool : MonoBehaviour
         }
 
         shockWaveList = new GameObject[10];
+        thunderBallList = new GameObject[10];
 
         for (int i = 0; i < shockWaveList.Length; i++)
         {
             shockWaveList[i] = Instantiate(shockWavePrefab);
             shockWaveList[i].transform.parent = objPool;
             shockWaveList[i].SetActive(false);
+        }
+
+        for (int i = 0; i < thunderBallList.Length; i++)
+        {
+            thunderBallList[i] = Instantiate(thunderBallPrefab);
+            thunderBallList[i].transform.parent = objPool;
+            thunderBallList[i].SetActive(false);
         }
     }
 
@@ -34,6 +44,9 @@ public class EffectPool : MonoBehaviour
         {
             case "ShockWave":
                 target = shockWaveList;
+                break;
+            case "ThunderBall":
+                target = thunderBallList;
                 break;
         }
 
