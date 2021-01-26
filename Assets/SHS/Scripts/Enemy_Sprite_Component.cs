@@ -11,12 +11,14 @@ public class Enemy_Sprite_Component : MonoBehaviour
     public bool lookingRight;
     private float blinkTimer = 0f;
 
+    //적의 바라보는 방향을 바꾸는 함수
     public void SwapSide()
     {
         lookingRight = !lookingRight;
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
 
+    //매개변수로 들어온 목표를 바라보는 함수
     public void LookAtTarget(Transform _target)
     {
         if(transform.position.x < _target.position.x)
@@ -35,6 +37,7 @@ public class Enemy_Sprite_Component : MonoBehaviour
         }
     }
 
+    //공격받았을 때 넉백시키는 함수.
     public void KnockBackSprite(float knockbackTime, Transform targetTransform)
     {
         blinkTimer = 0f;
@@ -43,6 +46,7 @@ public class Enemy_Sprite_Component : MonoBehaviour
         StartCoroutine(SpriteBlink(knockbackTime));
     }
 
+    //공격받았을 때, 스프라이트를 깜빡거리는 코루틴
     private IEnumerator SpriteBlink(float knockbackTime)
     {
         while(blinkTimer <= knockbackTime)

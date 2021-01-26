@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 2426392477863998961}
   m_Layer: 0
   m_Name: Boss_KIngs_Knight
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -325,7 +325,6 @@ MonoBehaviour:
   PatternHPList:
   - 1300
   - 600
-  timeBetPattern: 
   teleportGap: 1.5
   groundCheck: {fileID: 269376254}
   patternIdx: 0

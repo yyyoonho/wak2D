@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//오브젝트 풀링 클래스
 public class EffectPool : MonoBehaviour
 {
     public static EffectPool instance;

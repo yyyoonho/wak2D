@@ -22,22 +22,7 @@ public class Boss_Attack_Componenet : MonoBehaviour
         _player = GameObject.FindGameObjectWithTag("Player");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    /*
-    private void LookAtPlayer()
-    {
-        if (_player.transform.position.x >= transform.position.x)
-        {
-            transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
-        }
-    }
-    */
-
+    //박스안의 콜라이더들에게 데미지를 주는 근접공격 함수
     private void MeleeAttack(float attackDamage)
     {
         Collider2D[] collider2Ds = Physics2D.OverlapBoxAll(attackPoint.position, hitBox, 0);
@@ -51,6 +36,7 @@ public class Boss_Attack_Componenet : MonoBehaviour
         isAttacking = false;
     }
 
+    //2페이즈의 충격파를 생성하는 함수
     private void ShockWave()
     {
         GameObject g = EffectPool.instance.GetObject("ShockWave");
@@ -61,6 +47,7 @@ public class Boss_Attack_Componenet : MonoBehaviour
         }
     }
 
+    //3페이즈의 전기 구체를 생성하는 함수.
     private void ThunderBall()
     {
         GameObject g = EffectPool.instance.GetObject("ThunderBall");
@@ -71,6 +58,7 @@ public class Boss_Attack_Componenet : MonoBehaviour
         }
     }
 
+    //3페이즈의 전기 구체를 던지는 함수.
     private void ThrowThunderBall()
     {
         if (thunderBall != null)
@@ -80,6 +68,7 @@ public class Boss_Attack_Componenet : MonoBehaviour
         }
     }
 
+    //지정한 위치들 중 하나로 텔레포트 시키는 함수.
     private void TeleportToSide()
     {
         int r = Random.Range(0, sideTransformList.Count);

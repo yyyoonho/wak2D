@@ -15,6 +15,7 @@ public class ThunderBall : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+    //매개변수로 받은 목표지점을 지정하는 함수.
     public void Shot(Transform target)
     {
         dir = target.position - transform.position;

@@ -7,6 +7,7 @@ public class Enemy : LivingEntity
     public float attackRange;
     public float knockbackTime = 0.6f;
 
+    //공격, 순찰, 스프라이트를 담당하는 컴포넌트 클래스들.
     private Enemy_Attack_Component attack_Component;
     private Enemy_Patrol_Component patrol_Component;
     private Enemy_Sprite_Component sprite_Component;
@@ -30,7 +31,7 @@ public class Enemy : LivingEntity
         _player = GameObject.FindGameObjectWithTag("Player");
     }
 
-    // Update is called once per frame
+    // 상태에 따라 다른 컴포넌트의 Update함수를 호출.
     void Update()
     {
         CheckDistance();
@@ -53,6 +54,7 @@ public class Enemy : LivingEntity
         StartCoroutine(KnockBackCoroutine());
     }
 
+    //넉백 당하면 실행되는 코루틴
     private IEnumerator KnockBackCoroutine()
     {
         patrol_Component.KnockBack(_player.transform);
@@ -64,6 +66,7 @@ public class Enemy : LivingEntity
         ChangeState(State.Patrol);
     }
 
+    //목표인 플레이어와의 거리를 감지하여 상태를 변경시키는 함수.
     private void CheckDistance()
     {
         if (_state == State.Damaged) return;

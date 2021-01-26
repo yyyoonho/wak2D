@@ -59,6 +59,7 @@ public class Enemy_Attack_Component : MonoBehaviour
         }
     }
 
+    //원거리 공격 함수
     private void RangeAttack()
     {
         isAttacking = false;
@@ -66,6 +67,7 @@ public class Enemy_Attack_Component : MonoBehaviour
         pj.Init(_player, attackDamage);
     }
 
+    //근접공격 코루틴
     private IEnumerator MeleeAttackCoroutine()
     {
         enemy_Animator_Component.Trigger_Animator_Attack();
@@ -75,6 +77,7 @@ public class Enemy_Attack_Component : MonoBehaviour
         attackTimer = 0f;
     }
 
+    //박스안의 콜라이더들에게 데미지를 주는 근접공격 함수
     private void MeleeAttack()
     {
         Collider2D[] collider2Ds = Physics2D.OverlapBoxAll(attackPoint.position, hitBox, 0);
@@ -88,6 +91,7 @@ public class Enemy_Attack_Component : MonoBehaviour
         isAttacking = false;
     }
 
+    //박스의 크기를 Gizmos로 보여주는 함수
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

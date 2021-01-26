@@ -55,6 +55,7 @@ public class Projectile : MonoBehaviour
         }
     }
 
+    //날아가는 방향을 향해 회전시키는 함수.
     private void LookAtDir()
     {
         Vector2 direction = target.transform.position - transform.position;
@@ -63,6 +64,7 @@ public class Projectile : MonoBehaviour
         this.transform.rotation = Quaternion.AngleAxis(angle - 180, Vector3.forward);
     }
 
+    //포물선으로 던질 때, 원하는 지점에 가기위한 velocity를 설정하는 함수.
     private void ParabolaSetting()
     {
         rb2d = GetComponent<Rigidbody2D>();

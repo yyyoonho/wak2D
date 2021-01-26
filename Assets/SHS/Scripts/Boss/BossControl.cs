@@ -5,16 +5,15 @@ using UnityEngine;
 public class BossControl : LivingEntity
 {
     public List<float> PatternHPList;
-    public List<int> timeBetPattern;
     public float teleportGap;
     public Transform groundCheck;
 
     public int patternIdx = 0;
     public bool isLookingRight = false;
+    private bool isActing = false;
     private GameObject _player;
     private Animator _animator;
 
-    // Start is called before the first frame update
     void Start()
     {
         base.Start();
@@ -22,17 +21,16 @@ public class BossControl : LivingEntity
         _animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(patternIdx < PatternHPList.Count && HP <= PatternHPList[patternIdx])
         {
-            Debug.Log(PatternHPList[patternIdx]);
             patternIdx++;
             _animator.SetTrigger("TriggerPattern");
         }
     }
 
+    //플레이어의 좌 또는 우로 이동시키는 함수
     public void TelePortToPlayer()
     {
         //0 = 왼쪽, 1= 오른쪽
@@ -49,6 +47,7 @@ public class BossControl : LivingEntity
         }
     }
 
+    //플레이어를 바라보게 하는 함수
     private void LookAtPlayer()
     {
         if (_player.transform.position.x >= transform.position.x)
@@ -58,8 +57,16 @@ public class BossControl : LivingEntity
                 SwapSide();
             }
         }
+        else
+        {
+            if(isLookingRight)
+            {
+                SwapSide();
+            }
+        }
     }
 
+    //바라보는 방향을 바꾸는 함수
     private void SwapSide()
     {
         isLookingRight = !isLookingRight;
