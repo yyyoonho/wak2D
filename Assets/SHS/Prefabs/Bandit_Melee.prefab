@@ -77,7 +77,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1207679887
+  m_SortingLayerID: -1544532051
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 284394391a42ee541ad2db34332c16d4, type: 3}
@@ -104,7 +104,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.036423624, y: -0.0607059}
+  m_Offset: {x: -0.025638878, y: -0.09887773}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -115,7 +115,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6236223, y: 0.6479044}
+  m_Size: {x: 0.6451918, y: 0.8769351}
   m_EdgeRadius: 0
 --- !u!50 &9142591052009430529
 Rigidbody2D:
@@ -213,11 +213,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isRanged: 1
   attackDamage: 10
-  TimeBetAttack: 1
+  TimeBetAttack: 2
   SpendingTimeToAttack: 1
   projectile: {fileID: 0}
   attackPoint: {fileID: 9142591052493579255}
   hitBox: {x: 0.6, y: 0.8}
+  isAttacking: 0
 --- !u!114 &9142591052009430530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,6 +232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookingPoint: {fileID: 9142591052493579255}
+  lookingRight: 0
 --- !u!1 &9142591052493579254
 GameObject:
   m_ObjectHideFlags: 0

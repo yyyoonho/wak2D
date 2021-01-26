@@ -17,6 +17,7 @@ public class Projectile : MonoBehaviour
     private Vector3 dir;
     private GameObject target;
     private Rigidbody2D rb2d;
+    private Animator _animator;
 
     public void Init(GameObject _target, float _damage)
     {
@@ -28,6 +29,7 @@ public class Projectile : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _animator = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
         dir = (target.transform.position - transform.position).normalized;
         MAX_Y = transform.position.y + MAX_Y;
@@ -46,8 +48,14 @@ public class Projectile : MonoBehaviour
         {
             transform.position += dir * bulletSpeed * Time.deltaTime;
         }
+        else if(rangedAttackKind == ProjectileKind.Parabola)
+        {
+            float angle = Mathf.Atan2(rb2d.velocity.y, rb2d.velocity.x);
+            transform.localEulerAngles = new Vector3(0, 0, (angle * 180) / Mathf.PI);
+        }
     }
 
+    //날아가는 방향을 향해 회전시키는 함수.
     private void LookAtDir()
     {
         Vector2 direction = target.transform.position - transform.position;
@@ -56,6 +64,7 @@ public class Projectile : MonoBehaviour
         this.transform.rotation = Quaternion.AngleAxis(angle - 180, Vector3.forward);
     }
 
+    //포물선으로 던질 때, 원하는 지점에 가기위한 velocity를 설정하는 함수.
     private void ParabolaSetting()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -77,17 +86,26 @@ public class Projectile : MonoBehaviour
         rb2d.velocity = new Vector2(vx, vy);
     }
 
+    private void Destroy()
+    {
+        Destroy(gameObject);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
         {
+            _animator.SetTrigger("Explode");
             collision.GetComponent<LivingEntity>().GetDamaged(damage);
-            Destroy(gameObject);
+            Destroy(gameObject,3f);
+            this.enabled = false;
         }
 
         if (collision.CompareTag("Ground"))
         {
-            Destroy(gameObject);
+            _animator.SetTrigger("Explode");
+            Destroy(gameObject,3f);
+            this.enabled = false;
         }
     }
 }

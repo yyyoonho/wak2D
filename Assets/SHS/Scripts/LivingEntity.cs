@@ -5,7 +5,7 @@ using UnityEngine;
 public class LivingEntity : MonoBehaviour
 {
     public float startHP;
-    protected float HP;
+    public float HP;
     protected bool isDead = false;
 
     protected virtual void Start()

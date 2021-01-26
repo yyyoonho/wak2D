@@ -16,7 +16,7 @@ public class Enemy_Attack_Component : MonoBehaviour
     private Enemy_Sprite_Component enemy_Sprite_Component;
     private Enemy_Animator_Component enemy_Animator_Component;
     private float attackTimer;
-    private bool isAttacking = false;
+    public bool isAttacking = false;
 
     void Start()
     {
@@ -26,10 +26,16 @@ public class Enemy_Attack_Component : MonoBehaviour
         attackTimer = TimeBetAttack;
     }
 
+    public void Enter_Attack_State()
+    {
+        enemy_Animator_Component.Set_Animator_Waiting(true);
+    }
+
     public void RefreshAttackCycle()
     {
-        attackTimer = 0f;
+        attackTimer = attackTimer / 2;
         isAttacking = false;
+        enemy_Animator_Component.Set_Animator_Waiting(false);
     }
 
     public void Attack_Update()
@@ -37,7 +43,10 @@ public class Enemy_Attack_Component : MonoBehaviour
         attackTimer += Time.deltaTime;
         if (attackTimer >= TimeBetAttack && !isAttacking)
         {
+            isAttacking = true;
             attackTimer = 0f;
+            enemy_Sprite_Component.LookAtTarget(_player.transform);
+
             if (isRanged)
             {
                 //원거리 공격인 경우
@@ -45,31 +54,30 @@ public class Enemy_Attack_Component : MonoBehaviour
             }
             else
             {
-                enemy_Sprite_Component.LookAtTarget(_player.transform);
                 StartCoroutine(MeleeAttackCoroutine());
             }
         }
     }
 
+    //원거리 공격 함수
     private void RangeAttack()
     {
+        isAttacking = false;
         Projectile pj = Instantiate(projectile, transform.position, Quaternion.identity) as Projectile;
         pj.Init(_player, attackDamage);
     }
 
+    //근접공격 코루틴
     private IEnumerator MeleeAttackCoroutine()
     {
-        isAttacking = true;
-
         enemy_Animator_Component.Trigger_Animator_Attack();
 
         yield return new WaitForSeconds(SpendingTimeToAttack);
 
-        isAttacking = false;
-
         attackTimer = 0f;
     }
 
+    //박스안의 콜라이더들에게 데미지를 주는 근접공격 함수
     private void MeleeAttack()
     {
         Collider2D[] collider2Ds = Physics2D.OverlapBoxAll(attackPoint.position, hitBox, 0);
@@ -80,8 +88,10 @@ public class Enemy_Attack_Component : MonoBehaviour
                 coll.GetComponent<LivingEntity>().GetDamaged(attackDamage);
             }
         }
+        isAttacking = false;
     }
 
+    //박스의 크기를 Gizmos로 보여주는 함수
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

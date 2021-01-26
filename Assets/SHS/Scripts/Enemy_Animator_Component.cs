@@ -20,4 +20,9 @@ public class Enemy_Animator_Component : MonoBehaviour
     {
         _animator.SetBool("isDamaged", boolean);
     }
+
+    public void Set_Animator_Waiting(bool boolean)
+    {
+        _animator.SetBool("isWaiting", boolean);
+    }
 }
