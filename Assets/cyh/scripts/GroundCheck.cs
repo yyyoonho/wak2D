@@ -8,15 +8,21 @@ public class GroundCheck : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        isGround = true; //땅을 밟고 있으면 true를 리턴.
+        if(collision.tag == "Ground")
+        {
+            isGround = true; //땅을 밟고 있으면 true를 리턴.
+        }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        isGround = false; //공중에 있으면 false를 리턴.
+        if (collision.tag == "Ground")
+        {
+            isGround = false; //공중에 있으면 false를 리턴.
+        }
+        
     }
     public bool getIsGround()
     {
         return isGround;
     }
-
 }
