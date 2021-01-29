@@ -10,24 +10,32 @@ public class PlayerMove : MonoBehaviour
     Animator playerAnim;
 
     //Inspector에서 조정하기 위한 속성
-    public float speed = 12.0f;         //플레이어 캐릭터의 속도
+    public float speed = 4.0f;          //플레이어 캐릭터의 속도(runSpeed를 초기화시킨다.)
     public float jumpPower = 500.0f;    //플래이어 캐릭터를 점프시켰을 때의 파워
+    public float dashSpeed;             //대쉬 실행 시의 달리기속도
+    public float defaultTime;           //Inspector에서 대쉬실행 속도를 결정
 
     //내부에서 다루는 변수
+    private float runSpeed;             //플레이어의 달리기 속도
     bool grounded;                      //접지 체크
     float xMove;                        //x축 기준 이동방향
     int jumpCount = 0;                  //더블점프를 위한 "점프횟수" 카운트
     bool isJumping;                     //더블점프를 위한 "점프중" 확인 변수
+    private bool isDash;                //대쉬 키 입력이 되었는지 판단
+    private float dashTime;             //대쉬 실행 시 몇 초간 실행될 건지 결정하는 변수
 
     /*-----------------------------------------------------------------------------------*/
+
 
     //컴포넌트 실행 시작
     private void Start()
     {
+        runSpeed = speed;
         groundCheck = transform.Find("GroundCheck").gameObject;
         rigid = gameObject.GetComponent<Rigidbody2D>();
         playerAnim = gameObject.GetComponent<Animator>();
         grounded = false;
+
     }
     
     //Update 함수
@@ -56,6 +64,27 @@ public class PlayerMove : MonoBehaviour
         xMove = Input.GetAxis("Horizontal");
         playerAnim.SetFloat("Horizontal", Mathf.Abs(xMove));
 
+
+        //대쉬(Z)키를 입력 시 대쉬함수 실행.
+        if(Input.GetKeyDown(KeyCode.Z))
+        {
+            isDash = true;
+        }
+        if(dashTime<=0)
+        {
+            runSpeed = speed;
+            if (isDash)
+            {
+                dashTime = defaultTime;
+            }
+        }
+        else
+        {
+            dashTime -= Time.deltaTime;
+            runSpeed = dashSpeed;
+        }
+        isDash = false;
+        
     }
 
     //FixedUpdate 함수
@@ -102,12 +131,13 @@ public class PlayerMove : MonoBehaviour
         if (xMove>0)
         {
             transform.localScale = new Vector3(1, 1, 1);
-            rigid.velocity = new Vector2(xMove * speed, rigid.velocity.y);
+            rigid.velocity = new Vector2(xMove * runSpeed, rigid.velocity.y);
         }
         else if(xMove<0)
         {
             transform.localScale = new Vector3(-1, 1, 1);
-            rigid.velocity = new Vector2(xMove * speed, rigid.velocity.y);
+            rigid.velocity = new Vector2(xMove * runSpeed, rigid.velocity.y);
         }
     }
+
 }

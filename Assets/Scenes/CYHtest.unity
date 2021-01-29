@@ -2529,6 +2529,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   jumpPower: 750
+  dashSpeed: 15
+  defaultTime: 0.1
 --- !u!50 &422349861
 Rigidbody2D:
   serializedVersion: 4
@@ -2548,7 +2550,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!95 &422349862
 Animator:
