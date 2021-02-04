@@ -80,6 +80,7 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
+            playerAnim.SetTrigger("Dash");
             dashTime -= Time.deltaTime;
             runSpeed = dashSpeed;
         }
@@ -90,7 +91,6 @@ public class PlayerMove : MonoBehaviour
     //FixedUpdate 함수
     private void FixedUpdate()
     {
-
         if (xMove != 0)
         {
             Move();
@@ -127,7 +127,7 @@ public class PlayerMove : MonoBehaviour
     //움직임 함수
     private void Move()
     {
-        
+        runSpeed = speed;
         if (xMove>0)
         {
             transform.localScale = new Vector3(1, 1, 1);
@@ -140,4 +140,9 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
+    //Speed Setter
+    public void SetSpeed(float speed)
+    {
+        this.runSpeed = speed;
+    }
 }
