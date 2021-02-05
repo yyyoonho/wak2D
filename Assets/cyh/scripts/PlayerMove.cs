@@ -127,7 +127,6 @@ public class PlayerMove : MonoBehaviour
     //움직임 함수
     private void Move()
     {
-        runSpeed = speed;
         if (xMove>0)
         {
             transform.localScale = new Vector3(1, 1, 1);

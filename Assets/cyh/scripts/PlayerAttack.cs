@@ -11,12 +11,12 @@ public class PlayerAttack : MonoBehaviour
     PlayerMove playerMove;
 
     //==Inspector에서 조정하기 위한 속성==
-    public float attackTerm;
     public Transform pos;
     public Vector2 boxSize;
 
     //==내부에서 다루는 변수==
-    private float inClassAttackTerm;
+    volatile bool atkInputEnabled = false;
+    volatile bool atkInputNow = false;
 
     //==외부파라미터==
 
@@ -50,23 +50,9 @@ public class PlayerAttack : MonoBehaviour
 
     private void Update()
     {
-        if(inClassAttackTerm<=0)
+        if (Input.GetButtonDown("Fire1"))
         {
-            if (Input.GetButtonDown("Fire1"))
-            {
-                Collider2D[] collider2Ds = Physics2D.OverlapBoxAll(pos.position, boxSize, 0);
-                for(int i=0; i<collider2Ds.Length; i++)
-                {
-                    Debug.Log(collider2Ds[i].tag);
-                    //공격처리결과를 넣는다. Ex) Enemy를 참조해서 데미지 입력.
-                }
-                ActionAttack();
-                inClassAttackTerm = attackTerm;
-            }
-        }
-        else
-        {
-            inClassAttackTerm -= Time.deltaTime;
+            ActionAttack();
         }
     }
 
@@ -80,7 +66,7 @@ public class PlayerAttack : MonoBehaviour
             stateInfo.fullPathHash == ANISTS_Attack_B ||
             stateInfo.fullPathHash == ANISTS_Attack_C)
         {
-            //이동 정지
+            //이동 정지 (잘 안됨.) 슬로우 변경하자.
             playerMove.SetSpeed(0);
         }
     }
@@ -88,14 +74,43 @@ public class PlayerAttack : MonoBehaviour
     public void ActionAttack()
     {
         AnimatorStateInfo stateInfo = playerAnim.GetCurrentAnimatorStateInfo(0);
-        if(stateInfo.fullPathHash != ANISTS_Attack_A)
+        if (stateInfo.fullPathHash == ANISTS_Idle ||
+            stateInfo.fullPathHash == ANISTS_Run ||
+            stateInfo.fullPathHash == ANISTS_Jump)
         {
             playerAnim.SetTrigger("PlayerAttack1");
         }
         else
         {
-            Debug.Log("ㅎㅇ");
-            playerAnim.SetTrigger("PlayerAttack2");
+           if(atkInputEnabled)
+            {
+                atkInputEnabled = false;
+                atkInputNow = true;
+            }
+        }
+    }
+    // 애니메이션 이벤트용 코드
+    public void EnableAttackinput()
+    {
+        atkInputEnabled = true;
+    }
+
+    public void SetNextAttack(string name)
+    {
+        if(atkInputNow ==true)
+        {
+            atkInputNow = false;
+            playerAnim.Play(name);
+        }
+    }
+
+    public void CheckAttackEnemy()
+    {
+        Collider2D[] collider2Ds = Physics2D.OverlapBoxAll(pos.position, boxSize, 0);
+        for (int i = 0; i < collider2Ds.Length; i++)
+        {
+            Debug.Log(collider2Ds[i].tag);
+            //공격처리결과를 넣는다. Ex) Enemy를 참조해서 데미지 입력.
         }
     }
 
